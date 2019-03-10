@@ -1,0 +1,1103 @@
+[2018/12/22 00:01:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405081600rainfallData.xml
+[2018/12/22 00:01:16][DEBUG] (FileUtils:1511) : File read in 3.8s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201405081600rainfallData.xml
+[2018/12/22 00:03:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405091600rainfallData.xml
+[2018/12/22 00:03:20][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 59 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201405091600rainfallData.xml
+[2018/12/22 00:09:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405131600rainfallData.xml
+[2018/12/22 00:09:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405121600rainfallData.xml
+[2018/12/22 00:09:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405101600rainfallData.xml
+[2018/12/22 00:09:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405111600rainfallData.xml
+[2018/12/22 00:09:52][DEBUG] (FileUtils:1511) : File read in 5.9s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201405101600rainfallData.xml
+[2018/12/22 00:09:52][DEBUG] (FileUtils:1511) : File read in 5.9s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201405111600rainfallData.xml
+[2018/12/22 00:09:52][DEBUG] (FileUtils:1511) : File read in 6.0s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201405131600rainfallData.xml
+[2018/12/22 00:09:52][DEBUG] (FileUtils:1511) : File read in 6.1s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201405121600rainfallData.xml
+[2018/12/22 00:10:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405141600rainfallData.xml
+[2018/12/22 00:10:24][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201405141600rainfallData.xml
+[2018/12/22 00:11:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405151600rainfallData.xml
+[2018/12/22 00:11:14][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.9s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201405151600rainfallData.xml
+[2018/12/22 00:18:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405161600rainfallData.xml
+[2018/12/22 00:18:08][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201405161600rainfallData.xml
+[2018/12/22 00:20:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405171600rainfallData.xml
+[2018/12/22 00:20:14][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201405171600rainfallData.xml
+[2018/12/22 00:21:14][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405181600rainfallData.xml
+[2018/12/22 00:21:17][DEBUG] (FileUtils:1511) : File read in 2.7s IO 2.0s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201405181600rainfallData.xml
+[2018/12/22 00:23:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405191600rainfallData.xml
+[2018/12/22 00:23:56][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201405191600rainfallData.xml
+[2018/12/22 00:27:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405201600rainfallData.xml
+[2018/12/22 00:27:08][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 59 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201405201600rainfallData.xml
+[2018/12/22 00:27:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405211600rainfallData.xml
+[2018/12/22 00:27:15][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 59 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201405211600rainfallData.xml
+[2018/12/22 00:30:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405221600rainfallData.xml
+[2018/12/22 00:30:22][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201405221600rainfallData.xml
+[2018/12/22 00:33:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405231600rainfallData.xml
+[2018/12/22 00:33:22][DEBUG] (FileUtils:1511) : File read in 5.1s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201405231600rainfallData.xml
+[2018/12/22 00:34:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405241600rainfallData.xml
+[2018/12/22 00:34:27][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201405241600rainfallData.xml
+[2018/12/22 00:36:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405251600rainfallData.xml
+[2018/12/22 00:36:35][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405261600rainfallData.xml
+[2018/12/22 00:36:39][DEBUG] (FileUtils:1511) : File read in 4.9s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201405261600rainfallData.xml
+[2018/12/22 00:36:39][DEBUG] (FileUtils:1511) : File read in 5.1s IO 4.3s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201405251600rainfallData.xml
+[2018/12/22 00:41:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405271600rainfallData.xml
+[2018/12/22 00:41:21][DEBUG] (FileUtils:1511) : File read in 10s IO 9.3s 58 MB 6.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201405271600rainfallData.xml
+[2018/12/22 00:45:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405281600rainfallData.xml
+[2018/12/22 00:45:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405291600rainfallData.xml
+[2018/12/22 00:45:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405311600rainfallData.xml
+[2018/12/22 00:45:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201405301600rainfallData.xml
+[2018/12/22 00:45:27][DEBUG] (FileUtils:1511) : File read in 15s IO 14s 58 MB 4.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201405311600rainfallData.xml
+[2018/12/22 00:45:27][DEBUG] (FileUtils:1511) : File read in 15s IO 14s 58 MB 4.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201405291600rainfallData.xml
+[2018/12/22 00:45:27][DEBUG] (FileUtils:1511) : File read in 15s IO 15s 58 MB 3.8 MB/s E:\QpesumsAnalysis\RainfallData\original\201405281600rainfallData.xml
+[2018/12/22 00:45:27][DEBUG] (FileUtils:1511) : File read in 16s IO 14s 58 MB 3.9 MB/s E:\QpesumsAnalysis\RainfallData\original\201405301600rainfallData.xml
+[2018/12/22 00:47:14][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406011600rainfallData.xml
+[2018/12/22 00:47:17][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201406011600rainfallData.xml
+[2018/12/22 00:54:05][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406021600rainfallData.xml
+[2018/12/22 00:54:05][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406031600rainfallData.xml
+[2018/12/22 00:54:15][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406041600rainfallData.xml
+[2018/12/22 00:54:17][DEBUG] (FileUtils:1511) : File read in 11s IO 11s 58 MB 5.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201406021600rainfallData.xml
+[2018/12/22 00:54:17][DEBUG] (FileUtils:1511) : File read in 11s IO 11s 58 MB 5.3 MB/s E:\QpesumsAnalysis\RainfallData\original\201406031600rainfallData.xml
+[2018/12/22 00:54:21][DEBUG] (FileUtils:1511) : File read in 5.7s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201406041600rainfallData.xml
+[2018/12/22 00:56:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406051600rainfallData.xml
+[2018/12/22 00:56:39][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201406051600rainfallData.xml
+[2018/12/22 00:57:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406061600rainfallData.xml
+[2018/12/22 00:57:45][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 59 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201406061600rainfallData.xml
+[2018/12/22 00:59:06][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406071600rainfallData.xml
+[2018/12/22 00:59:09][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201406071600rainfallData.xml
+[2018/12/22 01:03:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406081600rainfallData.xml
+[2018/12/22 01:03:17][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201406081600rainfallData.xml
+[2018/12/22 01:07:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406091600rainfallData.xml
+[2018/12/22 01:07:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406101600rainfallData.xml
+[2018/12/22 01:07:27][DEBUG] (FileUtils:1511) : File read in 5.6s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201406091600rainfallData.xml
+[2018/12/22 01:07:28][DEBUG] (FileUtils:1511) : File read in 6.0s IO 5.3s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201406101600rainfallData.xml
+[2018/12/22 01:09:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406111600rainfallData.xml
+[2018/12/22 01:09:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406121600rainfallData.xml
+[2018/12/22 01:09:20][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.3s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201406121600rainfallData.xml
+[2018/12/22 01:09:20][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.3s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201406111600rainfallData.xml
+[2018/12/22 01:14:06][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406131600rainfallData.xml
+[2018/12/22 01:14:10][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201406131600rainfallData.xml
+[2018/12/22 01:16:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406141600rainfallData.xml
+[2018/12/22 01:16:30][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.3s 59 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201406141600rainfallData.xml
+[2018/12/22 01:17:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406171600rainfallData.xml
+[2018/12/22 01:17:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406161600rainfallData.xml
+[2018/12/22 01:17:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406151600rainfallData.xml
+[2018/12/22 01:17:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406181600rainfallData.xml
+[2018/12/22 01:17:45][DEBUG] (FileUtils:1511) : File read in 7.2s IO 6.0s 58 MB 9.5 MB/s E:\QpesumsAnalysis\RainfallData\original\201406161600rainfallData.xml
+[2018/12/22 01:17:45][DEBUG] (FileUtils:1511) : File read in 7.2s IO 6.0s 58 MB 9.5 MB/s E:\QpesumsAnalysis\RainfallData\original\201406171600rainfallData.xml
+[2018/12/22 01:17:45][DEBUG] (FileUtils:1511) : File read in 7.3s IO 6.0s 58 MB 9.5 MB/s E:\QpesumsAnalysis\RainfallData\original\201406181600rainfallData.xml
+[2018/12/22 01:17:45][DEBUG] (FileUtils:1511) : File read in 7.4s IO 6.2s 58 MB 9.4 MB/s E:\QpesumsAnalysis\RainfallData\original\201406151600rainfallData.xml
+[2018/12/22 01:18:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406191600rainfallData.xml
+[2018/12/22 01:18:05][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201406191600rainfallData.xml
+[2018/12/22 01:19:57][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406201600rainfallData.xml
+[2018/12/22 01:20:00][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.2s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201406201600rainfallData.xml
+[2018/12/22 01:20:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406211600rainfallData.xml
+[2018/12/22 01:20:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406221600rainfallData.xml
+[2018/12/22 01:20:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406241600rainfallData.xml
+[2018/12/22 01:20:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406231600rainfallData.xml
+[2018/12/22 01:21:01][DEBUG] (FileUtils:1511) : File read in 6.5s IO 5.6s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201406211600rainfallData.xml
+[2018/12/22 01:21:01][DEBUG] (FileUtils:1511) : File read in 6.5s IO 5.1s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201406231600rainfallData.xml
+[2018/12/22 01:21:01][DEBUG] (FileUtils:1511) : File read in 6.6s IO 5.1s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201406221600rainfallData.xml
+[2018/12/22 01:21:01][DEBUG] (FileUtils:1511) : File read in 6.7s IO 5.2s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201406241600rainfallData.xml
+[2018/12/22 01:28:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406251600rainfallData.xml
+[2018/12/22 01:28:20][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201406251600rainfallData.xml
+[2018/12/22 01:31:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406261600rainfallData.xml
+[2018/12/22 01:31:48][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201406261600rainfallData.xml
+[2018/12/22 01:31:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406271600rainfallData.xml
+[2018/12/22 01:31:58][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201406271600rainfallData.xml
+[2018/12/22 01:33:25][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406281600rainfallData.xml
+[2018/12/22 01:33:25][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406291600rainfallData.xml
+[2018/12/22 01:33:29][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201406281600rainfallData.xml
+[2018/12/22 01:33:29][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201406291600rainfallData.xml
+[2018/12/22 01:35:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201406301600rainfallData.xml
+[2018/12/22 01:35:39][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201406301600rainfallData.xml
+[2018/12/22 01:41:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407011600rainfallData.xml
+[2018/12/22 01:42:01][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201407011600rainfallData.xml
+[2018/12/22 01:42:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407021600rainfallData.xml
+[2018/12/22 01:42:20][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201407021600rainfallData.xml
+[2018/12/22 01:44:18][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407031600rainfallData.xml
+[2018/12/22 01:44:21][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201407031600rainfallData.xml
+[2018/12/22 01:44:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407041600rainfallData.xml
+[2018/12/22 01:44:51][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201407041600rainfallData.xml
+[2018/12/22 01:47:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407051600rainfallData.xml
+[2018/12/22 01:47:03][DEBUG] (FileUtils:1511) : File read in 3.0s IO 1.9s 58 MB 30 MB/s E:\QpesumsAnalysis\RainfallData\original\201407051600rainfallData.xml
+[2018/12/22 01:50:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407061600rainfallData.xml
+[2018/12/22 01:51:03][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201407061600rainfallData.xml
+[2018/12/22 01:51:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407071600rainfallData.xml
+[2018/12/22 01:51:51][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.9s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201407071600rainfallData.xml
+[2018/12/22 01:52:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407081600rainfallData.xml
+[2018/12/22 01:52:06][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201407081600rainfallData.xml
+[2018/12/22 01:52:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407091600rainfallData.xml
+[2018/12/22 01:52:29][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.5s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201407091600rainfallData.xml
+[2018/12/22 01:54:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407101600rainfallData.xml
+[2018/12/22 01:55:00][DEBUG] (FileUtils:1511) : File read in 5.8s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201407101600rainfallData.xml
+[2018/12/22 02:00:30][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407111600rainfallData.xml
+[2018/12/22 02:00:30][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407121600rainfallData.xml
+[2018/12/22 02:00:35][DEBUG] (FileUtils:1511) : File read in 4.8s IO 4.0s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201407121600rainfallData.xml
+[2018/12/22 02:00:35][DEBUG] (FileUtils:1511) : File read in 4.8s IO 4.1s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201407111600rainfallData.xml
+[2018/12/22 02:01:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407131600rainfallData.xml
+[2018/12/22 02:01:30][DEBUG] (FileUtils:1511) : File read in 3.9s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201407131600rainfallData.xml
+[2018/12/22 02:04:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407141600rainfallData.xml
+[2018/12/22 02:04:06][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201407141600rainfallData.xml
+[2018/12/22 02:08:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407151600rainfallData.xml
+[2018/12/22 02:08:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407161600rainfallData.xml
+[2018/12/22 02:08:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407171600rainfallData.xml
+[2018/12/22 02:08:17][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201407151600rainfallData.xml
+[2018/12/22 02:08:17][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201407161600rainfallData.xml
+[2018/12/22 02:08:17][DEBUG] (FileUtils:1511) : File read in 5.4s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201407171600rainfallData.xml
+[2018/12/22 02:09:51][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407181600rainfallData.xml
+[2018/12/22 02:09:54][DEBUG] (FileUtils:1511) : File read in 2.8s IO 2.1s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201407181600rainfallData.xml
+[2018/12/22 02:11:37][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407191600rainfallData.xml
+[2018/12/22 02:11:40][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.2s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201407191600rainfallData.xml
+[2018/12/22 02:12:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407201600rainfallData.xml
+[2018/12/22 02:12:57][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.2s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201407201600rainfallData.xml
+[2018/12/22 02:16:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407211600rainfallData.xml
+[2018/12/22 02:16:23][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201407211600rainfallData.xml
+[2018/12/22 02:20:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407221600rainfallData.xml
+[2018/12/22 02:21:01][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 59 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201407221600rainfallData.xml
+[2018/12/22 02:26:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407231600rainfallData.xml
+[2018/12/22 02:26:14][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 59 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201407231600rainfallData.xml
+[2018/12/22 02:26:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407241600rainfallData.xml
+[2018/12/22 02:26:26][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201407241600rainfallData.xml
+[2018/12/22 02:27:39][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407271600rainfallData.xml
+[2018/12/22 02:27:39][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407251600rainfallData.xml
+[2018/12/22 02:27:39][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407261600rainfallData.xml
+[2018/12/22 02:27:50][DEBUG] (FileUtils:1511) : File read in 11s IO 10s 58 MB 5.5 MB/s E:\QpesumsAnalysis\RainfallData\original\201407271600rainfallData.xml
+[2018/12/22 02:27:51][DEBUG] (FileUtils:1511) : File read in 12s IO 11s 58 MB 5.1 MB/s E:\QpesumsAnalysis\RainfallData\original\201407261600rainfallData.xml
+[2018/12/22 02:27:51][DEBUG] (FileUtils:1511) : File read in 12s IO 11s 58 MB 5.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201407251600rainfallData.xml
+[2018/12/22 02:34:05][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407281600rainfallData.xml
+[2018/12/22 02:34:08][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.1s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201407281600rainfallData.xml
+[2018/12/22 02:34:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407301600rainfallData.xml
+[2018/12/22 02:34:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407291600rainfallData.xml
+[2018/12/22 02:34:38][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201407301600rainfallData.xml
+[2018/12/22 02:34:38][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201407291600rainfallData.xml
+[2018/12/22 02:34:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201407311600rainfallData.xml
+[2018/12/22 02:34:59][DEBUG] (FileUtils:1511) : File read in 2.8s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201407311600rainfallData.xml
+[2018/12/22 02:37:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408011600rainfallData.xml
+[2018/12/22 02:37:45][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201408011600rainfallData.xml
+[2018/12/22 02:37:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408021600rainfallData.xml
+[2018/12/22 02:37:56][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201408021600rainfallData.xml
+[2018/12/22 02:45:08][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408031600rainfallData.xml
+[2018/12/22 02:45:11][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201408031600rainfallData.xml
+[2018/12/22 02:47:14][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408041600rainfallData.xml
+[2018/12/22 02:47:17][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201408041600rainfallData.xml
+[2018/12/22 02:48:03][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408051600rainfallData.xml
+[2018/12/22 02:48:07][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201408051600rainfallData.xml
+[2018/12/22 02:48:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408061600rainfallData.xml
+[2018/12/22 02:48:31][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201408061600rainfallData.xml
+[2018/12/22 02:51:14][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408071600rainfallData.xml
+[2018/12/22 02:51:17][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201408071600rainfallData.xml
+[2018/12/22 02:51:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408081600rainfallData.xml
+[2018/12/22 02:51:26][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201408081600rainfallData.xml
+[2018/12/22 02:54:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408091600rainfallData.xml
+[2018/12/22 02:54:36][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201408091600rainfallData.xml
+[2018/12/22 02:55:01][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408101600rainfallData.xml
+[2018/12/22 02:55:05][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201408101600rainfallData.xml
+[2018/12/22 02:57:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408111600rainfallData.xml
+[2018/12/22 02:57:33][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.8s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201408111600rainfallData.xml
+[2018/12/22 03:03:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408121600rainfallData.xml
+[2018/12/22 03:03:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408131600rainfallData.xml
+[2018/12/22 03:03:42][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201408131600rainfallData.xml
+[2018/12/22 03:03:42][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 59 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201408121600rainfallData.xml
+[2018/12/22 03:04:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408141600rainfallData.xml
+[2018/12/22 03:04:34][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.1s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201408141600rainfallData.xml
+[2018/12/22 03:11:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408151600rainfallData.xml
+[2018/12/22 03:11:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408161600rainfallData.xml
+[2018/12/22 03:11:24][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201408151600rainfallData.xml
+[2018/12/22 03:11:24][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201408161600rainfallData.xml
+[2018/12/22 03:11:35][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408171600rainfallData.xml
+[2018/12/22 03:11:39][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201408171600rainfallData.xml
+[2018/12/22 03:13:07][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408181600rainfallData.xml
+[2018/12/22 03:13:11][DEBUG] (FileUtils:1511) : File read in 4.3s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201408181600rainfallData.xml
+[2018/12/22 03:19:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408191600rainfallData.xml
+[2018/12/22 03:19:30][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.9s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201408191600rainfallData.xml
+[2018/12/22 03:20:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408201600rainfallData.xml
+[2018/12/22 03:20:30][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201408201600rainfallData.xml
+[2018/12/22 03:22:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408211600rainfallData.xml
+[2018/12/22 03:22:51][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201408211600rainfallData.xml
+[2018/12/22 03:24:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408221600rainfallData.xml
+[2018/12/22 03:24:49][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.2s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201408221600rainfallData.xml
+[2018/12/22 03:30:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408231600rainfallData.xml
+[2018/12/22 03:30:07][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201408231600rainfallData.xml
+[2018/12/22 03:31:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408241600rainfallData.xml
+[2018/12/22 03:31:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408251600rainfallData.xml
+[2018/12/22 03:31:25][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.8s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201408251600rainfallData.xml
+[2018/12/22 03:31:25][DEBUG] (FileUtils:1511) : File read in 4.6s IO 3.8s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201408241600rainfallData.xml
+[2018/12/22 03:34:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408261600rainfallData.xml
+[2018/12/22 03:34:21][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201408261600rainfallData.xml
+[2018/12/22 03:38:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408271600rainfallData.xml
+[2018/12/22 03:38:28][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201408271600rainfallData.xml
+[2018/12/22 03:41:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408281600rainfallData.xml
+[2018/12/22 03:41:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408291600rainfallData.xml
+[2018/12/22 03:41:08][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201408281600rainfallData.xml
+[2018/12/22 03:41:09][DEBUG] (FileUtils:1511) : File read in 4.6s IO 3.8s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201408291600rainfallData.xml
+[2018/12/22 03:42:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408301600rainfallData.xml
+[2018/12/22 03:42:07][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201408301600rainfallData.xml
+[2018/12/22 03:43:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201408311600rainfallData.xml
+[2018/12/22 03:43:13][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201408311600rainfallData.xml
+[2018/12/22 03:44:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409011600rainfallData.xml
+[2018/12/22 03:44:16][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201409011600rainfallData.xml
+[2018/12/22 03:47:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409021600rainfallData.xml
+[2018/12/22 03:47:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409041600rainfallData.xml
+[2018/12/22 03:47:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409031600rainfallData.xml
+[2018/12/22 03:47:28][DEBUG] (FileUtils:1511) : File read in 5.8s IO 5.0s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201409021600rainfallData.xml
+[2018/12/22 03:47:29][DEBUG] (FileUtils:1511) : File read in 6.4s IO 5.1s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201409031600rainfallData.xml
+[2018/12/22 03:47:29][DEBUG] (FileUtils:1511) : File read in 6.4s IO 5.1s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201409041600rainfallData.xml
+[2018/12/22 03:53:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409051600rainfallData.xml
+[2018/12/22 03:53:06][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201409051600rainfallData.xml
+[2018/12/22 03:55:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409061600rainfallData.xml
+[2018/12/22 03:55:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409071600rainfallData.xml
+[2018/12/22 03:55:36][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201409061600rainfallData.xml
+[2018/12/22 03:55:36][DEBUG] (FileUtils:1511) : File read in 3.8s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201409071600rainfallData.xml
+[2018/12/22 03:57:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409081600rainfallData.xml
+[2018/12/22 03:57:58][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201409081600rainfallData.xml
+[2018/12/22 03:58:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409091600rainfallData.xml
+[2018/12/22 03:58:20][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.5s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201409091600rainfallData.xml
+[2018/12/22 04:03:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409101600rainfallData.xml
+[2018/12/22 04:03:39][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409111600rainfallData.xml
+[2018/12/22 04:03:43][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.7s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201409101600rainfallData.xml
+[2018/12/22 04:03:43][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201409111600rainfallData.xml
+[2018/12/22 04:04:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409121600rainfallData.xml
+[2018/12/22 04:05:02][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.2s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201409121600rainfallData.xml
+[2018/12/22 04:11:57][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409131600rainfallData.xml
+[2018/12/22 04:12:01][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201409131600rainfallData.xml
+[2018/12/22 04:13:51][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409141600rainfallData.xml
+[2018/12/22 04:13:55][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201409141600rainfallData.xml
+[2018/12/22 04:14:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409151600rainfallData.xml
+[2018/12/22 04:14:41][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201409151600rainfallData.xml
+[2018/12/22 04:23:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409161600rainfallData.xml
+[2018/12/22 04:23:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409171600rainfallData.xml
+[2018/12/22 04:23:30][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201409161600rainfallData.xml
+[2018/12/22 04:23:30][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201409171600rainfallData.xml
+[2018/12/22 04:24:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409181600rainfallData.xml
+[2018/12/22 04:24:50][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201409181600rainfallData.xml
+[2018/12/22 04:26:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409191600rainfallData.xml
+[2018/12/22 04:26:14][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201409191600rainfallData.xml
+[2018/12/22 04:29:05][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409201600rainfallData.xml
+[2018/12/22 04:29:08][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201409201600rainfallData.xml
+[2018/12/22 04:35:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409211600rainfallData.xml
+[2018/12/22 04:35:27][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 59 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201409211600rainfallData.xml
+[2018/12/22 04:36:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409221600rainfallData.xml
+[2018/12/22 04:36:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409231600rainfallData.xml
+[2018/12/22 04:36:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409241600rainfallData.xml
+[2018/12/22 04:36:38][DEBUG] (FileUtils:1511) : File read in 5.1s IO 3.9s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201409231600rainfallData.xml
+[2018/12/22 04:36:39][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201409221600rainfallData.xml
+[2018/12/22 04:36:39][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201409241600rainfallData.xml
+[2018/12/22 04:37:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409251600rainfallData.xml
+[2018/12/22 04:37:27][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201409251600rainfallData.xml
+[2018/12/22 04:40:06][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409261600rainfallData.xml
+[2018/12/22 04:40:09][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201409261600rainfallData.xml
+[2018/12/22 04:45:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409271600rainfallData.xml
+[2018/12/22 04:45:07][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201409271600rainfallData.xml
+[2018/12/22 04:45:43][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409281600rainfallData.xml
+[2018/12/22 04:45:47][DEBUG] (FileUtils:1511) : File read in 4.6s IO 3.9s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201409281600rainfallData.xml
+[2018/12/22 04:49:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409291600rainfallData.xml
+[2018/12/22 04:49:55][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201409291600rainfallData.xml
+[2018/12/22 04:53:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201409301600rainfallData.xml
+[2018/12/22 04:53:33][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201409301600rainfallData.xml
+[2018/12/22 04:59:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410011600rainfallData.xml
+[2018/12/22 04:59:51][DEBUG] (FileUtils:1511) : File read in 3.9s IO 2.9s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201410011600rainfallData.xml
+[2018/12/22 05:00:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410021600rainfallData.xml
+[2018/12/22 05:00:34][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201410021600rainfallData.xml
+[2018/12/22 05:11:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410031600rainfallData.xml
+[2018/12/22 05:11:55][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201410031600rainfallData.xml
+[2018/12/22 05:12:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410041600rainfallData.xml
+[2018/12/22 05:12:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410051600rainfallData.xml
+[2018/12/22 05:12:27][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.9s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201410051600rainfallData.xml
+[2018/12/22 05:12:27][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201410041600rainfallData.xml
+[2018/12/22 05:13:43][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410061600rainfallData.xml
+[2018/12/22 05:13:46][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201410061600rainfallData.xml
+[2018/12/22 05:13:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410071600rainfallData.xml
+[2018/12/22 05:13:56][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201410071600rainfallData.xml
+[2018/12/22 05:14:39][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410081600rainfallData.xml
+[2018/12/22 05:14:42][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201410081600rainfallData.xml
+[2018/12/22 05:14:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410091600rainfallData.xml
+[2018/12/22 05:14:52][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.0s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201410091600rainfallData.xml
+[2018/12/22 05:15:39][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410101600rainfallData.xml
+[2018/12/22 05:15:42][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201410101600rainfallData.xml
+[2018/12/22 05:20:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410111600rainfallData.xml
+[2018/12/22 05:20:32][DEBUG] (FileUtils:1511) : File read in 2.8s IO 2.0s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201410111600rainfallData.xml
+[2018/12/22 05:23:06][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410121600rainfallData.xml
+[2018/12/22 05:23:09][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201410121600rainfallData.xml
+[2018/12/22 05:24:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410131600rainfallData.xml
+[2018/12/22 05:24:13][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201410131600rainfallData.xml
+[2018/12/22 05:27:14][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410141600rainfallData.xml
+[2018/12/22 05:27:17][DEBUG] (FileUtils:1511) : File read in 2.7s IO 1.9s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201410141600rainfallData.xml
+[2018/12/22 05:30:25][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410151600rainfallData.xml
+[2018/12/22 05:30:28][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201410151600rainfallData.xml
+[2018/12/22 05:36:03][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410161600rainfallData.xml
+[2018/12/22 05:36:06][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201410161600rainfallData.xml
+[2018/12/22 05:36:39][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410171600rainfallData.xml
+[2018/12/22 05:36:43][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201410171600rainfallData.xml
+[2018/12/22 05:36:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410181600rainfallData.xml
+[2018/12/22 05:36:51][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.2s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201410181600rainfallData.xml
+[2018/12/22 05:39:03][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410191600rainfallData.xml
+[2018/12/22 05:39:07][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201410191600rainfallData.xml
+[2018/12/22 05:45:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410201600rainfallData.xml
+[2018/12/22 05:45:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410211600rainfallData.xml
+[2018/12/22 05:45:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410221600rainfallData.xml
+[2018/12/22 05:45:47][DEBUG] (FileUtils:1511) : File read in 5.4s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201410221600rainfallData.xml
+[2018/12/22 05:45:47][DEBUG] (FileUtils:1511) : File read in 5.6s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201410201600rainfallData.xml
+[2018/12/22 05:45:47][DEBUG] (FileUtils:1511) : File read in 5.6s IO 4.6s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201410211600rainfallData.xml
+[2018/12/22 05:47:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410231600rainfallData.xml
+[2018/12/22 05:47:07][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201410231600rainfallData.xml
+[2018/12/22 05:48:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410241600rainfallData.xml
+[2018/12/22 05:48:59][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201410241600rainfallData.xml
+[2018/12/22 05:50:05][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410251600rainfallData.xml
+[2018/12/22 05:50:08][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201410251600rainfallData.xml
+[2018/12/22 05:54:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410261600rainfallData.xml
+[2018/12/22 05:54:26][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201410261600rainfallData.xml
+[2018/12/22 05:55:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410271600rainfallData.xml
+[2018/12/22 05:55:49][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201410271600rainfallData.xml
+[2018/12/22 05:58:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410281600rainfallData.xml
+[2018/12/22 05:58:15][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201410281600rainfallData.xml
+[2018/12/22 06:01:51][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410291600rainfallData.xml
+[2018/12/22 06:01:55][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201410291600rainfallData.xml
+[2018/12/22 06:04:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410301600rainfallData.xml
+[2018/12/22 06:04:32][DEBUG] (FileUtils:1511) : File read in 2.8s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201410301600rainfallData.xml
+[2018/12/22 06:09:40][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410311600rainfallData.xml
+[2018/12/22 06:09:43][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201410311600rainfallData.xml
+[2018/12/22 06:14:15][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411011600rainfallData.xml
+[2018/12/22 06:14:19][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.7s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201411011600rainfallData.xml
+[2018/12/22 06:16:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411021600rainfallData.xml
+[2018/12/22 06:16:22][DEBUG] (FileUtils:1511) : File read in 3.9s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201411021600rainfallData.xml
+[2018/12/22 06:19:25][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411031600rainfallData.xml
+[2018/12/22 06:19:28][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201411031600rainfallData.xml
+[2018/12/22 06:22:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411041600rainfallData.xml
+[2018/12/22 06:22:32][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201411041600rainfallData.xml
+[2018/12/22 06:25:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411051600rainfallData.xml
+[2018/12/22 06:25:20][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201411051600rainfallData.xml
+[2018/12/22 06:27:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411061600rainfallData.xml
+[2018/12/22 06:27:22][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201411061600rainfallData.xml
+[2018/12/22 06:29:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411071600rainfallData.xml
+[2018/12/22 06:29:03][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201411071600rainfallData.xml
+[2018/12/22 06:29:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411081600rainfallData.xml
+[2018/12/22 06:29:56][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201411081600rainfallData.xml
+[2018/12/22 06:31:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411091600rainfallData.xml
+[2018/12/22 06:31:28][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201411091600rainfallData.xml
+[2018/12/22 06:31:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411101600rainfallData.xml
+[2018/12/22 06:31:47][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201411101600rainfallData.xml
+[2018/12/22 06:39:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411111600rainfallData.xml
+[2018/12/22 06:39:21][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201411111600rainfallData.xml
+[2018/12/22 06:39:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411121600rainfallData.xml
+[2018/12/22 06:39:51][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201411121600rainfallData.xml
+[2018/12/22 06:42:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411131600rainfallData.xml
+[2018/12/22 06:42:53][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201411131600rainfallData.xml
+[2018/12/22 06:46:07][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411141600rainfallData.xml
+[2018/12/22 06:46:10][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201411141600rainfallData.xml
+[2018/12/22 06:47:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411151600rainfallData.xml
+[2018/12/22 06:47:45][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201411151600rainfallData.xml
+[2018/12/22 06:48:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411161600rainfallData.xml
+[2018/12/22 06:48:35][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201411161600rainfallData.xml
+[2018/12/22 06:51:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411171600rainfallData.xml
+[2018/12/22 06:51:15][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201411171600rainfallData.xml
+[2018/12/22 06:57:09][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411181600rainfallData.xml
+[2018/12/22 06:57:12][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201411181600rainfallData.xml
+[2018/12/22 06:57:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411191600rainfallData.xml
+[2018/12/22 06:57:22][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.1s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201411191600rainfallData.xml
+[2018/12/22 07:02:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411201600rainfallData.xml
+[2018/12/22 07:02:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411211600rainfallData.xml
+[2018/12/22 07:02:55][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.8s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201411201600rainfallData.xml
+[2018/12/22 07:02:55][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.1s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201411211600rainfallData.xml
+[2018/12/22 07:04:37][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411221600rainfallData.xml
+[2018/12/22 07:04:40][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201411221600rainfallData.xml
+[2018/12/22 07:08:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411231600rainfallData.xml
+[2018/12/22 07:08:16][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201411231600rainfallData.xml
+[2018/12/22 07:10:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411241600rainfallData.xml
+[2018/12/22 07:10:14][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201411241600rainfallData.xml
+[2018/12/22 07:11:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411251600rainfallData.xml
+[2018/12/22 07:11:34][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201411251600rainfallData.xml
+[2018/12/22 07:17:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411261600rainfallData.xml
+[2018/12/22 07:17:23][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201411261600rainfallData.xml
+[2018/12/22 07:18:15][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411271600rainfallData.xml
+[2018/12/22 07:18:19][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.7s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201411271600rainfallData.xml
+[2018/12/22 07:22:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411281600rainfallData.xml
+[2018/12/22 07:22:31][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201411281600rainfallData.xml
+[2018/12/22 07:23:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411291600rainfallData.xml
+[2018/12/22 07:23:38][DEBUG] (FileUtils:1511) : File read in 4.7s IO 3.8s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201411291600rainfallData.xml
+[2018/12/22 07:27:57][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201411301600rainfallData.xml
+[2018/12/22 07:28:01][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201411301600rainfallData.xml
+[2018/12/22 07:30:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412011600rainfallData.xml
+[2018/12/22 07:30:34][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201412011600rainfallData.xml
+[2018/12/22 07:31:09][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412021600rainfallData.xml
+[2018/12/22 07:31:13][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201412021600rainfallData.xml
+[2018/12/22 07:34:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412031600rainfallData.xml
+[2018/12/22 07:34:54][DEBUG] (FileUtils:1511) : File read in 5.1s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201412031600rainfallData.xml
+[2018/12/22 07:35:40][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412041600rainfallData.xml
+[2018/12/22 07:35:43][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.1s 59 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201412041600rainfallData.xml
+[2018/12/22 07:36:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412051600rainfallData.xml
+[2018/12/22 07:36:48][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201412051600rainfallData.xml
+[2018/12/22 07:39:35][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412061600rainfallData.xml
+[2018/12/22 07:39:39][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201412061600rainfallData.xml
+[2018/12/22 07:39:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412071600rainfallData.xml
+[2018/12/22 07:39:48][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201412071600rainfallData.xml
+[2018/12/22 07:44:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412081600rainfallData.xml
+[2018/12/22 07:44:37][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.1s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201412081600rainfallData.xml
+[2018/12/22 07:46:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412091600rainfallData.xml
+[2018/12/22 07:46:20][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201412091600rainfallData.xml
+[2018/12/22 07:52:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412101600rainfallData.xml
+[2018/12/22 07:52:13][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.0s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201412101600rainfallData.xml
+[2018/12/22 07:54:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412111600rainfallData.xml
+[2018/12/22 07:54:47][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201412111600rainfallData.xml
+[2018/12/22 07:56:18][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412121600rainfallData.xml
+[2018/12/22 07:56:21][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201412121600rainfallData.xml
+[2018/12/22 07:58:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412131600rainfallData.xml
+[2018/12/22 07:58:34][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201412131600rainfallData.xml
+[2018/12/22 07:59:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412141600rainfallData.xml
+[2018/12/22 07:59:47][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201412141600rainfallData.xml
+[2018/12/22 08:02:08][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412151600rainfallData.xml
+[2018/12/22 08:02:12][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201412151600rainfallData.xml
+[2018/12/22 08:04:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412161600rainfallData.xml
+[2018/12/22 08:04:33][DEBUG] (FileUtils:1511) : File read in 3.9s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201412161600rainfallData.xml
+[2018/12/22 08:06:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412171600rainfallData.xml
+[2018/12/22 08:06:50][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201412171600rainfallData.xml
+[2018/12/22 08:08:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412181600rainfallData.xml
+[2018/12/22 08:08:26][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201412181600rainfallData.xml
+[2018/12/22 08:15:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412191600rainfallData.xml
+[2018/12/22 08:15:30][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201412191600rainfallData.xml
+[2018/12/22 08:21:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412201600rainfallData.xml
+[2018/12/22 08:21:56][DEBUG] (FileUtils:1511) : File read in 4.8s IO 3.7s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201412201600rainfallData.xml
+[2018/12/22 08:23:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412211600rainfallData.xml
+[2018/12/22 08:23:07][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201412211600rainfallData.xml
+[2018/12/22 08:24:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412221600rainfallData.xml
+[2018/12/22 08:24:35][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201412221600rainfallData.xml
+[2018/12/22 08:27:01][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412231600rainfallData.xml
+[2018/12/22 08:27:05][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201412231600rainfallData.xml
+[2018/12/22 08:28:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412241600rainfallData.xml
+[2018/12/22 08:28:53][DEBUG] (FileUtils:1511) : File read in 3.8s IO 2.5s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201412241600rainfallData.xml
+[2018/12/22 08:33:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412251600rainfallData.xml
+[2018/12/22 08:33:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412261600rainfallData.xml
+[2018/12/22 08:33:16][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.9s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201412251600rainfallData.xml
+[2018/12/22 08:33:16][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201412261600rainfallData.xml
+[2018/12/22 08:38:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412271600rainfallData.xml
+[2018/12/22 08:38:32][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201412271600rainfallData.xml
+[2018/12/22 08:39:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412281600rainfallData.xml
+[2018/12/22 08:39:36][DEBUG] (FileUtils:1511) : File read in 3s IO 1.9s 58 MB 30 MB/s E:\QpesumsAnalysis\RainfallData\original\201412281600rainfallData.xml
+[2018/12/22 08:42:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412291600rainfallData.xml
+[2018/12/22 08:42:36][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201412291600rainfallData.xml
+[2018/12/22 08:44:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412301600rainfallData.xml
+[2018/12/22 08:44:46][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201412301600rainfallData.xml
+[2018/12/22 08:45:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412311600rainfallData.xml
+[2018/12/22 08:45:07][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201412311600rainfallData.xml
+[2018/12/22 08:50:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501011600rainfallData.xml
+[2018/12/22 08:50:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501021600rainfallData.xml
+[2018/12/22 08:50:08][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201501011600rainfallData.xml
+[2018/12/22 08:50:08][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201501021600rainfallData.xml
+[2018/12/22 08:56:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501031600rainfallData.xml
+[2018/12/22 08:56:36][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201501031600rainfallData.xml
+[2018/12/22 08:59:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501041600rainfallData.xml
+[2018/12/22 08:59:24][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201501041600rainfallData.xml
+[2018/12/22 09:00:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501051600rainfallData.xml
+[2018/12/22 09:00:27][DEBUG] (FileUtils:1511) : File read in 3.0s IO 1.9s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201501051600rainfallData.xml
+[2018/12/22 09:04:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501061600rainfallData.xml
+[2018/12/22 09:04:48][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201501061600rainfallData.xml
+[2018/12/22 09:06:07][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501071600rainfallData.xml
+[2018/12/22 09:06:11][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.9s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201501071600rainfallData.xml
+[2018/12/22 09:07:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501081600rainfallData.xml
+[2018/12/22 09:07:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501091600rainfallData.xml
+[2018/12/22 09:07:31][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201501081600rainfallData.xml
+[2018/12/22 09:07:31][DEBUG] (FileUtils:1511) : File read in 4.1s IO 2.9s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201501091600rainfallData.xml
+[2018/12/22 09:07:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501101600rainfallData.xml
+[2018/12/22 09:08:03][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201501101600rainfallData.xml
+[2018/12/22 09:14:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501111600rainfallData.xml
+[2018/12/22 09:14:42][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201501111600rainfallData.xml
+[2018/12/22 09:15:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501121600rainfallData.xml
+[2018/12/22 09:15:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501131600rainfallData.xml
+[2018/12/22 09:15:33][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201501131600rainfallData.xml
+[2018/12/22 09:15:33][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.7s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201501121600rainfallData.xml
+[2018/12/22 09:22:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501141600rainfallData.xml
+[2018/12/22 09:22:38][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201501141600rainfallData.xml
+[2018/12/22 09:24:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501151600rainfallData.xml
+[2018/12/22 09:24:57][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.9s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201501151600rainfallData.xml
+[2018/12/22 09:28:14][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501161600rainfallData.xml
+[2018/12/22 09:28:17][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201501161600rainfallData.xml
+[2018/12/22 09:31:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501171600rainfallData.xml
+[2018/12/22 09:31:16][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201501171600rainfallData.xml
+[2018/12/22 09:34:30][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501181600rainfallData.xml
+[2018/12/22 09:34:33][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201501181600rainfallData.xml
+[2018/12/22 09:36:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501191600rainfallData.xml
+[2018/12/22 09:36:57][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.5s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201501191600rainfallData.xml
+[2018/12/22 09:42:57][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501201600rainfallData.xml
+[2018/12/22 09:43:01][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201501201600rainfallData.xml
+[2018/12/22 09:43:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501211600rainfallData.xml
+[2018/12/22 09:44:03][DEBUG] (FileUtils:1511) : File read in 3.9s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201501211600rainfallData.xml
+[2018/12/22 09:45:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501221600rainfallData.xml
+[2018/12/22 09:45:23][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201501221600rainfallData.xml
+[2018/12/22 09:47:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501241600rainfallData.xml
+[2018/12/22 09:47:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501231600rainfallData.xml
+[2018/12/22 09:47:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501251600rainfallData.xml
+[2018/12/22 09:47:59][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201501251600rainfallData.xml
+[2018/12/22 09:47:59][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201501231600rainfallData.xml
+[2018/12/22 09:47:59][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.6s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201501241600rainfallData.xml
+[2018/12/22 09:53:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501271600rainfallData.xml
+[2018/12/22 09:53:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501261600rainfallData.xml
+[2018/12/22 09:53:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501281600rainfallData.xml
+[2018/12/22 09:53:27][DEBUG] (FileUtils:1511) : File read in 4.8s IO 4.1s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201501281600rainfallData.xml
+[2018/12/22 09:53:27][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.1s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201501271600rainfallData.xml
+[2018/12/22 09:53:27][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.1s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201501261600rainfallData.xml
+[2018/12/22 09:55:06][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501291600rainfallData.xml
+[2018/12/22 09:55:10][DEBUG] (FileUtils:1511) : File read in 3.8s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201501291600rainfallData.xml
+[2018/12/22 10:01:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501301600rainfallData.xml
+[2018/12/22 10:01:57][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201501301600rainfallData.xml
+[2018/12/22 10:04:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201501311600rainfallData.xml
+[2018/12/22 10:04:16][DEBUG] (FileUtils:1511) : File read in 2.6s IO 1.9s 58 MB 30 MB/s E:\QpesumsAnalysis\RainfallData\original\201501311600rainfallData.xml
+[2018/12/22 10:05:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502011600rainfallData.xml
+[2018/12/22 10:05:25][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201502011600rainfallData.xml
+[2018/12/22 10:09:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502021600rainfallData.xml
+[2018/12/22 10:09:50][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201502021600rainfallData.xml
+[2018/12/22 10:09:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502031600rainfallData.xml
+[2018/12/22 10:10:01][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201502031600rainfallData.xml
+[2018/12/22 10:12:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502041600rainfallData.xml
+[2018/12/22 10:12:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502051600rainfallData.xml
+[2018/12/22 10:12:27][DEBUG] (FileUtils:1511) : File read in 4.6s IO 3.8s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201502041600rainfallData.xml
+[2018/12/22 10:12:27][DEBUG] (FileUtils:1511) : File read in 4.6s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201502051600rainfallData.xml
+[2018/12/22 10:15:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502061600rainfallData.xml
+[2018/12/22 10:15:25][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201502061600rainfallData.xml
+[2018/12/22 10:21:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502071600rainfallData.xml
+[2018/12/22 10:21:49][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201502071600rainfallData.xml
+[2018/12/22 10:28:40][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502081600rainfallData.xml
+[2018/12/22 10:28:43][DEBUG] (FileUtils:1511) : File read in 3.1s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201502081600rainfallData.xml
+[2018/12/22 10:31:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502091600rainfallData.xml
+[2018/12/22 10:31:20][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201502091600rainfallData.xml
+[2018/12/22 10:31:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502101600rainfallData.xml
+[2018/12/22 10:31:30][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201502101600rainfallData.xml
+[2018/12/22 10:31:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502111600rainfallData.xml
+[2018/12/22 10:31:52][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201502111600rainfallData.xml
+[2018/12/22 10:32:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502121600rainfallData.xml
+[2018/12/22 10:32:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502131600rainfallData.xml
+[2018/12/22 10:32:26][DEBUG] (FileUtils:1511) : File read in 7.0s IO 6.3s 58 MB 9.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201502121600rainfallData.xml
+[2018/12/22 10:32:26][DEBUG] (FileUtils:1511) : File read in 6.6s IO 5.9s 58 MB 9.8 MB/s E:\QpesumsAnalysis\RainfallData\original\201502131600rainfallData.xml
+[2018/12/22 10:33:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502141600rainfallData.xml
+[2018/12/22 10:33:52][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201502141600rainfallData.xml
+[2018/12/22 10:37:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502151600rainfallData.xml
+[2018/12/22 10:37:22][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201502151600rainfallData.xml
+[2018/12/22 10:40:40][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502161600rainfallData.xml
+[2018/12/22 10:40:44][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201502161600rainfallData.xml
+[2018/12/22 10:41:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502171600rainfallData.xml
+[2018/12/22 10:41:08][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201502171600rainfallData.xml
+[2018/12/22 10:43:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502181600rainfallData.xml
+[2018/12/22 10:43:58][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201502181600rainfallData.xml
+[2018/12/22 10:45:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 10:45:57][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 10:47:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 10:47:50][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 10:56:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 10:56:25][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 10:57:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 10:57:52][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 10:59:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 11:00:04][DEBUG] (FileUtils:1511) : File read in 4.7s IO 4.0s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 11:04:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 11:04:29][DEBUG] (FileUtils:1511) : File read in 5.4s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 11:09:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 11:09:20][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 11:11:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502261600rainfallData.xml
+[2018/12/22 11:11:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 11:11:14][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.7s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201502261600rainfallData.xml
+[2018/12/22 11:11:14][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.7s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 11:13:18][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502281600rainfallData.xml
+[2018/12/22 11:13:22][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201502281600rainfallData.xml
+[2018/12/22 11:15:26][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503011600rainfallData.xml
+[2018/12/22 11:15:29][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201503011600rainfallData.xml
+[2018/12/22 11:17:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503021600rainfallData.xml
+[2018/12/22 11:17:49][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201503021600rainfallData.xml
+[2018/12/22 11:23:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503031600rainfallData.xml
+[2018/12/22 11:23:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503041600rainfallData.xml
+[2018/12/22 11:23:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503051600rainfallData.xml
+[2018/12/22 11:23:26][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503041600rainfallData.xml
+[2018/12/22 11:23:26][DEBUG] (FileUtils:1511) : File read in 5.7s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201503031600rainfallData.xml
+[2018/12/22 11:23:26][DEBUG] (FileUtils:1511) : File read in 5.9s IO 5.1s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201503051600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 11:30:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 11:31:00][DEBUG] (FileUtils:1511) : File read in 1.8s IO 0.0s 58 MB 1.1 GB/s E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 11:31:01][DEBUG] (FileUtils:1511) : File read in 2.1s IO 0.1s 58 MB 345 MB/s E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 11:31:01][DEBUG] (FileUtils:1511) : File read in 2.2s IO 0.0s 58 MB 1.3 GB/s E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 11:31:01][DEBUG] (FileUtils:1511) : File read in 2.3s IO 0.0s 58 MB 1.2 GB/s E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 11:31:01][DEBUG] (FileUtils:1511) : File read in 2.4s IO 0.1s 58 MB 522 MB/s E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 11:31:01][DEBUG] (FileUtils:1511) : File read in 2.4s IO 0.0s 58 MB 749 MB/s E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 11:31:01][DEBUG] (FileUtils:1511) : File read in 2.6s IO 0.1s 58 MB 480 MB/s E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 11:31:01][DEBUG] (FileUtils:1511) : File read in 2.6s IO 0.2s 58 MB 259 MB/s E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 11:53:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 11:53:38][DEBUG] (FileUtils:1511) : File read in 1.9s IO 0.0s 58 MB 1.2 GB/s E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502161600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410221600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502091600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412281600rainfallData.xml
+[2018/12/22 11:53:56][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201310041600rainfallData.xml
+[2018/12/22 11:53:57][DEBUG] (FileUtils:1511) : File read in 1.8s IO 0.0s 58 MB 1016 MB/s E:\QpesumsAnalysis\RainfallData\original\201502091600rainfallData.xml
+[2018/12/22 11:53:57][DEBUG] (FileUtils:1511) : File read in 1.9s IO 0.0s 58 MB 923 MB/s E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 11:53:58][DEBUG] (FileUtils:1511) : File read in 2.0s IO 0.0s 58 MB 1.1 GB/s E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 11:53:58][DEBUG] (FileUtils:1511) : File read in 2.2s IO 0.0s 58 MB 825 MB/s E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 11:53:58][DEBUG] (FileUtils:1511) : File read in 2.2s IO 0.0s 58 MB 1.3 GB/s E:\QpesumsAnalysis\RainfallData\original\201502161600rainfallData.xml
+[2018/12/22 11:53:58][DEBUG] (FileUtils:1511) : File read in 2.6s IO 0.7s 58 MB 77 MB/s E:\QpesumsAnalysis\RainfallData\original\201310041600rainfallData.xml
+[2018/12/22 11:53:59][DEBUG] (FileUtils:1511) : File read in 3.0s IO 0.9s 58 MB 63 MB/s E:\QpesumsAnalysis\RainfallData\original\201410221600rainfallData.xml
+[2018/12/22 11:53:59][DEBUG] (FileUtils:1511) : File read in 3.1s IO 1.1s 58 MB 52 MB/s E:\QpesumsAnalysis\RainfallData\original\201412281600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201412281600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201310041600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502091600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502161600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201410221600rainfallData.xml
+[2018/12/22 11:56:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 11:57:01][DEBUG] (FileUtils:1511) : File read in 3.4s IO 1.7s 58 MB 32 MB/s E:\QpesumsAnalysis\RainfallData\original\201502161600rainfallData.xml
+[2018/12/22 11:57:01][DEBUG] (FileUtils:1511) : File read in 3.5s IO 1.8s 58 MB 31 MB/s E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 11:57:01][DEBUG] (FileUtils:1511) : File read in 3.6s IO 1.9s 58 MB 30 MB/s E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 11:57:01][DEBUG] (FileUtils:1511) : File read in 3.7s IO 1.9s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201412281600rainfallData.xml
+[2018/12/22 11:57:02][DEBUG] (FileUtils:1511) : File read in 4.0s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201410221600rainfallData.xml
+[2018/12/22 11:57:02][DEBUG] (FileUtils:1511) : File read in 4.2s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201502091600rainfallData.xml
+[2018/12/22 11:57:02][DEBUG] (FileUtils:1511) : File read in 4.3s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201502211600rainfallData.xml
+[2018/12/22 11:57:03][DEBUG] (FileUtils:1511) : File read in 4.9s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201310041600rainfallData.xml
+[2018/12/22 12:37:09][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 12:37:12][DEBUG] (FileUtils:1511) : File read in 2.2s IO 1.4s 58 MB 40 MB/s E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 12:42:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 12:42:11][DEBUG] (FileUtils:1511) : File read in 8.6s IO 7.8s 58 MB 7.4 MB/s E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 12:44:10][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 12:44:15][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502261600rainfallData.xml
+[2018/12/22 12:44:18][DEBUG] (FileUtils:1511) : File read in 7.4s IO 6.7s 58 MB 8.6 MB/s E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 12:44:20][DEBUG] (FileUtils:1511) : File read in 5.2s IO 4.3s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201502261600rainfallData.xml
+[2018/12/22 12:44:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 12:44:26][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 12:46:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502281600rainfallData.xml
+[2018/12/22 12:46:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503011600rainfallData.xml
+[2018/12/22 12:46:53][DEBUG] (FileUtils:1511) : File read in 5.7s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201502281600rainfallData.xml
+[2018/12/22 12:46:53][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.7s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201503011600rainfallData.xml
+[2018/12/22 12:49:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503021600rainfallData.xml
+[2018/12/22 12:49:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503031600rainfallData.xml
+[2018/12/22 12:49:37][DEBUG] (FileUtils:1511) : File read in 7.8s IO 4.3s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503021600rainfallData.xml
+[2018/12/22 12:49:39][DEBUG] (FileUtils:1511) : File read in 2.8s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201503031600rainfallData.xml
+[2018/12/22 12:51:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503041600rainfallData.xml
+[2018/12/22 12:52:02][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201503041600rainfallData.xml
+[2018/12/22 12:52:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503051600rainfallData.xml
+[2018/12/22 12:52:49][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.9s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201503051600rainfallData.xml
+[2018/12/22 12:56:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503061600rainfallData.xml
+[2018/12/22 12:56:42][DEBUG] (FileUtils:1511) : File read in 5.1s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201503061600rainfallData.xml
+[2018/12/22 13:01:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503071600rainfallData.xml
+[2018/12/22 13:01:38][DEBUG] (FileUtils:1511) : File read in 5.0s IO 4.3s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503071600rainfallData.xml
+[2018/12/22 13:02:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503081600rainfallData.xml
+[2018/12/22 13:02:23][DEBUG] (FileUtils:1511) : File read in 5.9s IO 5.2s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201503081600rainfallData.xml
+[2018/12/22 13:05:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503091600rainfallData.xml
+[2018/12/22 13:05:04][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201503091600rainfallData.xml
+[2018/12/22 13:06:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503101600rainfallData.xml
+[2018/12/22 13:06:55][DEBUG] (FileUtils:1511) : File read in 7.5s IO 6.1s 58 MB 9.5 MB/s E:\QpesumsAnalysis\RainfallData\original\201503101600rainfallData.xml
+[2018/12/22 13:08:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503111600rainfallData.xml
+[2018/12/22 13:08:15][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201503111600rainfallData.xml
+[2018/12/22 13:11:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503121600rainfallData.xml
+[2018/12/22 13:11:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503131600rainfallData.xml
+[2018/12/22 13:12:01][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201503131600rainfallData.xml
+[2018/12/22 13:12:03][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201503121600rainfallData.xml
+[2018/12/22 13:14:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503141600rainfallData.xml
+[2018/12/22 13:14:58][DEBUG] (FileUtils:1511) : File read in 4.6s IO 2.9s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201503141600rainfallData.xml
+[2018/12/22 13:17:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503151600rainfallData.xml
+[2018/12/22 13:18:00][DEBUG] (FileUtils:1511) : File read in 7.3s IO 6.6s 58 MB 8.7 MB/s E:\QpesumsAnalysis\RainfallData\original\201503151600rainfallData.xml
+[2018/12/22 13:19:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503161600rainfallData.xml
+[2018/12/22 13:19:08][DEBUG] (FileUtils:1511) : File read in 6.4s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201503161600rainfallData.xml
+[2018/12/22 13:20:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503171600rainfallData.xml
+[2018/12/22 13:20:52][DEBUG] (FileUtils:1511) : File read in 7.1s IO 6.3s 58 MB 9.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201503171600rainfallData.xml
+[2018/12/22 13:27:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503181600rainfallData.xml
+[2018/12/22 13:27:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503191600rainfallData.xml
+[2018/12/22 13:27:33][DEBUG] (FileUtils:1511) : File read in 5.7s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503181600rainfallData.xml
+[2018/12/22 13:27:37][DEBUG] (FileUtils:1511) : File read in 9.6s IO 8.5s 58 MB 6.8 MB/s E:\QpesumsAnalysis\RainfallData\original\201503191600rainfallData.xml
+[2018/12/22 13:29:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503201600rainfallData.xml
+[2018/12/22 13:29:58][DEBUG] (FileUtils:1511) : File read in 5.2s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503201600rainfallData.xml
+[2018/12/22 13:31:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503211600rainfallData.xml
+[2018/12/22 13:31:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503221600rainfallData.xml
+[2018/12/22 13:31:27][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201503211600rainfallData.xml
+[2018/12/22 13:31:28][DEBUG] (FileUtils:1511) : File read in 5.7s IO 4.3s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503221600rainfallData.xml
+[2018/12/22 13:34:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503231600rainfallData.xml
+[2018/12/22 13:34:28][DEBUG] (FileUtils:1511) : File read in 6.1s IO 5.4s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201503231600rainfallData.xml
+[2018/12/22 13:38:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503241600rainfallData.xml
+[2018/12/22 13:38:11][DEBUG] (FileUtils:1511) : File read in 7.8s IO 7.1s 58 MB 8.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201503241600rainfallData.xml
+[2018/12/22 13:41:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503251600rainfallData.xml
+[2018/12/22 13:41:39][DEBUG] (FileUtils:1511) : File read in 11s IO 10s 59 MB 5.6 MB/s E:\QpesumsAnalysis\RainfallData\original\201503251600rainfallData.xml
+[2018/12/22 13:43:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503261600rainfallData.xml
+[2018/12/22 13:43:22][DEBUG] (FileUtils:1511) : File read in 6.4s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503261600rainfallData.xml
+[2018/12/22 13:48:01][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503271600rainfallData.xml
+[2018/12/22 13:48:03][DEBUG] (FileUtils:1511) : File read in 2.0s IO 1.2s 58 MB 46 MB/s E:\QpesumsAnalysis\RainfallData\original\201503271600rainfallData.xml
+[2018/12/22 13:51:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503281600rainfallData.xml
+[2018/12/22 13:51:18][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503291600rainfallData.xml
+[2018/12/22 13:51:22][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503281600rainfallData.xml
+[2018/12/22 13:51:22][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201503291600rainfallData.xml
+[2018/12/22 13:55:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503301600rainfallData.xml
+[2018/12/22 13:55:03][DEBUG] (FileUtils:1511) : File read in 5.0s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201503301600rainfallData.xml
+[2018/12/22 13:55:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503311600rainfallData.xml
+[2018/12/22 13:55:27][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201503311600rainfallData.xml
+[2018/12/22 13:58:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504011600rainfallData.xml
+[2018/12/22 13:58:35][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504021600rainfallData.xml
+[2018/12/22 13:58:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504031600rainfallData.xml
+[2018/12/22 13:58:37][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504041600rainfallData.xml
+[2018/12/22 13:58:37][DEBUG] (FileUtils:1511) : File read in 6.0s IO 5.0s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201504011600rainfallData.xml
+[2018/12/22 13:58:42][DEBUG] (FileUtils:1511) : File read in 6.6s IO 5.7s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201504021600rainfallData.xml
+[2018/12/22 13:58:43][DEBUG] (FileUtils:1511) : File read in 7.9s IO 6.5s 58 MB 8.9 MB/s E:\QpesumsAnalysis\RainfallData\original\201504031600rainfallData.xml
+[2018/12/22 13:58:44][DEBUG] (FileUtils:1511) : File read in 6.6s IO 5.7s 58 MB 10.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201504041600rainfallData.xml
+[2018/12/22 14:01:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504051600rainfallData.xml
+[2018/12/22 14:02:02][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.1s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201504051600rainfallData.xml
+[2018/12/22 14:02:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504061600rainfallData.xml
+[2018/12/22 14:02:13][DEBUG] (FileUtils:1511) : File read in 2.2s IO 1.5s 58 MB 38 MB/s E:\QpesumsAnalysis\RainfallData\original\201504061600rainfallData.xml
+[2018/12/22 14:02:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504071600rainfallData.xml
+[2018/12/22 14:02:35][DEBUG] (FileUtils:1511) : File read in 2.5s IO 1.5s 58 MB 37 MB/s E:\QpesumsAnalysis\RainfallData\original\201504071600rainfallData.xml
+[2018/12/22 14:02:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504081600rainfallData.xml
+[2018/12/22 14:02:53][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201504081600rainfallData.xml
+[2018/12/22 14:06:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504091600rainfallData.xml
+[2018/12/22 14:06:35][DEBUG] (FileUtils:1511) : File read in 5.6s IO 4.8s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201504091600rainfallData.xml
+[2018/12/22 14:13:25][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504101600rainfallData.xml
+[2018/12/22 14:13:31][DEBUG] (FileUtils:1511) : File read in 6.7s IO 5.9s 58 MB 9.7 MB/s E:\QpesumsAnalysis\RainfallData\original\201504101600rainfallData.xml
+[2018/12/22 14:13:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504121600rainfallData.xml
+[2018/12/22 14:13:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504111600rainfallData.xml
+[2018/12/22 14:13:53][DEBUG] (FileUtils:1511) : File read in 5.6s IO 2.7s 59 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201504111600rainfallData.xml
+[2018/12/22 14:13:53][DEBUG] (FileUtils:1511) : File read in 4.7s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201504121600rainfallData.xml
+[2018/12/22 14:16:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504131600rainfallData.xml
+[2018/12/22 14:16:39][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201504131600rainfallData.xml
+[2018/12/22 14:17:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504141600rainfallData.xml
+[2018/12/22 14:17:49][DEBUG] (FileUtils:1511) : File read in 5.6s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201504141600rainfallData.xml
+[2018/12/22 14:20:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504151600rainfallData.xml
+[2018/12/22 14:21:04][DEBUG] (FileUtils:1511) : File read in 7.2s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201504151600rainfallData.xml
+[2018/12/22 14:23:08][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504161600rainfallData.xml
+[2018/12/22 14:23:13][DEBUG] (FileUtils:1511) : File read in 5.1s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201504161600rainfallData.xml
+[2018/12/22 14:25:25][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504171600rainfallData.xml
+[2018/12/22 14:25:31][DEBUG] (FileUtils:1511) : File read in 6.4s IO 5.7s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201504171600rainfallData.xml
+[2018/12/22 14:28:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504181600rainfallData.xml
+[2018/12/22 14:28:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504191600rainfallData.xml
+[2018/12/22 14:28:54][DEBUG] (FileUtils:1511) : File read in 6.3s IO 5.6s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201504181600rainfallData.xml
+[2018/12/22 14:28:55][DEBUG] (FileUtils:1511) : File read in 6.7s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201504191600rainfallData.xml
+[2018/12/22 14:31:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504201600rainfallData.xml
+[2018/12/22 14:31:29][DEBUG] (FileUtils:1511) : File read in 5.8s IO 5.0s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201504201600rainfallData.xml
+[2018/12/22 14:32:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504211600rainfallData.xml
+[2018/12/22 14:32:36][DEBUG] (FileUtils:1511) : File read in 14s IO 13s 58 MB 4.4 MB/s E:\QpesumsAnalysis\RainfallData\original\201504211600rainfallData.xml
+[2018/12/22 14:33:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504221600rainfallData.xml
+[2018/12/22 14:33:53][DEBUG] (FileUtils:1511) : File read in 5.7s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201504221600rainfallData.xml
+[2018/12/22 14:36:06][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504231600rainfallData.xml
+[2018/12/22 14:36:08][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.0s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201504231600rainfallData.xml
+[2018/12/22 14:38:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504241600rainfallData.xml
+[2018/12/22 14:38:55][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201504241600rainfallData.xml
+[2018/12/22 14:42:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504251600rainfallData.xml
+[2018/12/22 14:42:46][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201504251600rainfallData.xml
+[2018/12/22 14:45:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504261600rainfallData.xml
+[2018/12/22 14:45:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504271600rainfallData.xml
+[2018/12/22 14:45:23][DEBUG] (FileUtils:1511) : File read in 7.4s IO 6.7s 58 MB 8.6 MB/s E:\QpesumsAnalysis\RainfallData\original\201504261600rainfallData.xml
+[2018/12/22 14:45:23][DEBUG] (FileUtils:1511) : File read in 7.5s IO 6.4s 58 MB 9.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201504271600rainfallData.xml
+[2018/12/22 14:47:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504281600rainfallData.xml
+[2018/12/22 14:47:58][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201504281600rainfallData.xml
+[2018/12/22 14:48:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504291600rainfallData.xml
+[2018/12/22 14:48:06][DEBUG] (FileUtils:1511) : File read in 2.6s IO 1.9s 58 MB 30 MB/s E:\QpesumsAnalysis\RainfallData\original\201504291600rainfallData.xml
+[2018/12/22 14:56:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504301600rainfallData.xml
+[2018/12/22 14:56:32][DEBUG] (FileUtils:1511) : File read in 7.8s IO 7.0s 58 MB 8.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201504301600rainfallData.xml
+[2018/12/22 14:59:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505021600rainfallData.xml
+[2018/12/22 14:59:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505011600rainfallData.xml
+[2018/12/22 14:59:32][DEBUG] (FileUtils:1511) : File read in 5.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201505021600rainfallData.xml
+[2018/12/22 14:59:32][DEBUG] (FileUtils:1511) : File read in 5.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201505011600rainfallData.xml
+[2018/12/22 15:00:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505031600rainfallData.xml
+[2018/12/22 15:00:36][DEBUG] (FileUtils:1511) : File read in 2.7s IO 1.9s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201505031600rainfallData.xml
+[2018/12/22 15:02:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505041600rainfallData.xml
+[2018/12/22 15:02:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505051600rainfallData.xml
+[2018/12/22 15:02:35][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201505041600rainfallData.xml
+[2018/12/22 15:02:36][DEBUG] (FileUtils:1511) : File read in 4.6s IO 3.4s 59 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201505051600rainfallData.xml
+[2018/12/22 15:03:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505061600rainfallData.xml
+[2018/12/22 15:03:35][DEBUG] (FileUtils:1511) : File read in 2.2s IO 1.5s 58 MB 38 MB/s E:\QpesumsAnalysis\RainfallData\original\201505061600rainfallData.xml
+[2018/12/22 15:04:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505071600rainfallData.xml
+[2018/12/22 15:04:32][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201505071600rainfallData.xml
+[2018/12/22 15:04:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505081600rainfallData.xml
+[2018/12/22 15:04:46][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.5s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201505081600rainfallData.xml
+[2018/12/22 15:07:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505091600rainfallData.xml
+[2018/12/22 15:07:17][DEBUG] (FileUtils:1511) : File read in 5.4s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201505091600rainfallData.xml
+[2018/12/22 15:10:11][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505101600rainfallData.xml
+[2018/12/22 15:10:16][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.6s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201505101600rainfallData.xml
+[2018/12/22 15:10:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505111600rainfallData.xml
+[2018/12/22 15:10:42][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201505111600rainfallData.xml
+[2018/12/22 15:11:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505121600rainfallData.xml
+[2018/12/22 15:11:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505131600rainfallData.xml
+[2018/12/22 15:11:50][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201505131600rainfallData.xml
+[2018/12/22 15:11:50][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.9s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201505121600rainfallData.xml
+[2018/12/22 15:11:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505141600rainfallData.xml
+[2018/12/22 15:11:58][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201505141600rainfallData.xml
+[2018/12/22 15:14:15][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505151600rainfallData.xml
+[2018/12/22 15:14:20][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201505151600rainfallData.xml
+[2018/12/22 15:17:35][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505161600rainfallData.xml
+[2018/12/22 15:17:38][DEBUG] (FileUtils:1511) : File read in 2.9s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201505161600rainfallData.xml
+[2018/12/22 15:17:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505171600rainfallData.xml
+[2018/12/22 15:17:54][DEBUG] (FileUtils:1511) : File read in 4.2s IO 2.3s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201505171600rainfallData.xml
+[2018/12/22 15:22:51][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505181600rainfallData.xml
+[2018/12/22 15:22:54][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201505181600rainfallData.xml
+[2018/12/22 15:26:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505191600rainfallData.xml
+[2018/12/22 15:26:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505201600rainfallData.xml
+[2018/12/22 15:26:52][DEBUG] (FileUtils:1511) : File read in 5.6s IO 4.8s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201505191600rainfallData.xml
+[2018/12/22 15:26:53][DEBUG] (FileUtils:1511) : File read in 6.1s IO 5.3s 59 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201505201600rainfallData.xml
+[2018/12/22 15:28:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505211600rainfallData.xml
+[2018/12/22 15:28:49][DEBUG] (FileUtils:1511) : File read in 6.4s IO 4.8s 59 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201505211600rainfallData.xml
+[2018/12/22 15:29:36][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505221600rainfallData.xml
+[2018/12/22 15:29:41][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.4s 59 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201505221600rainfallData.xml
+[2018/12/22 15:32:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505231600rainfallData.xml
+[2018/12/22 15:32:28][DEBUG] (FileUtils:1511) : File read in 5.7s IO 4.9s 59 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201505231600rainfallData.xml
+[2018/12/22 15:34:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505241600rainfallData.xml
+[2018/12/22 15:34:46][DEBUG] (FileUtils:1511) : File read in 3.9s IO 3.2s 59 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201505241600rainfallData.xml
+[2018/12/22 15:38:05][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505251600rainfallData.xml
+[2018/12/22 15:38:09][DEBUG] (FileUtils:1511) : File read in 4.7s IO 3.1s 59 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201505251600rainfallData.xml
+[2018/12/22 15:41:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505261600rainfallData.xml
+[2018/12/22 15:41:25][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 59 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201505261600rainfallData.xml
+[2018/12/22 15:46:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505271600rainfallData.xml
+[2018/12/22 15:46:29][DEBUG] (FileUtils:1511) : File read in 5.0s IO 4.3s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201505271600rainfallData.xml
+[2018/12/22 15:50:35][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505281600rainfallData.xml
+[2018/12/22 15:50:39][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201505281600rainfallData.xml
+[2018/12/22 15:52:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505291600rainfallData.xml
+[2018/12/22 15:52:16][DEBUG] (FileUtils:1511) : File read in 4.0s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201505291600rainfallData.xml
+[2018/12/22 15:52:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505301600rainfallData.xml
+[2018/12/22 15:53:00][DEBUG] (FileUtils:1511) : File read in 7.2s IO 6.5s 58 MB 8.8 MB/s E:\QpesumsAnalysis\RainfallData\original\201505301600rainfallData.xml
+[2018/12/22 15:55:37][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201505311600rainfallData.xml
+[2018/12/22 15:55:37][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506011600rainfallData.xml
+[2018/12/22 15:55:45][DEBUG] (FileUtils:1511) : File read in 8.5s IO 6.9s 58 MB 8.4 MB/s E:\QpesumsAnalysis\RainfallData\original\201505311600rainfallData.xml
+[2018/12/22 15:55:46][DEBUG] (FileUtils:1511) : File read in 8.8s IO 7.3s 58 MB 7.9 MB/s E:\QpesumsAnalysis\RainfallData\original\201506011600rainfallData.xml
+[2018/12/22 15:57:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506021600rainfallData.xml
+[2018/12/22 15:57:37][DEBUG] (FileUtils:1511) : File read in 5.8s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201506021600rainfallData.xml
+[2018/12/22 15:59:48][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506031600rainfallData.xml
+[2018/12/22 15:59:54][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.8s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201506031600rainfallData.xml
+[2018/12/22 16:02:04][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506041600rainfallData.xml
+[2018/12/22 16:02:09][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201506041600rainfallData.xml
+[2018/12/22 16:03:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506051600rainfallData.xml
+[2018/12/22 16:03:46][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201506051600rainfallData.xml
+[2018/12/22 16:11:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506081600rainfallData.xml
+[2018/12/22 16:11:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506071600rainfallData.xml
+[2018/12/22 16:11:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506061600rainfallData.xml
+[2018/12/22 16:11:53][DEBUG] (FileUtils:1511) : File read in 8.6s IO 7.8s 58 MB 7.4 MB/s E:\QpesumsAnalysis\RainfallData\original\201506071600rainfallData.xml
+[2018/12/22 16:11:53][DEBUG] (FileUtils:1511) : File read in 8.7s IO 7.8s 58 MB 7.4 MB/s E:\QpesumsAnalysis\RainfallData\original\201506061600rainfallData.xml
+[2018/12/22 16:11:53][DEBUG] (FileUtils:1511) : File read in 8.9s IO 8.0s 58 MB 7.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201506081600rainfallData.xml
+[2018/12/22 16:14:47][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506091600rainfallData.xml
+[2018/12/22 16:14:55][DEBUG] (FileUtils:1511) : File read in 7.8s IO 7.1s 58 MB 8.1 MB/s E:\QpesumsAnalysis\RainfallData\original\201506091600rainfallData.xml
+[2018/12/22 16:17:21][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506101600rainfallData.xml
+[2018/12/22 16:17:27][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201506101600rainfallData.xml
+[2018/12/22 16:23:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506111600rainfallData.xml
+[2018/12/22 16:23:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506121600rainfallData.xml
+[2018/12/22 16:23:26][DEBUG] (FileUtils:1511) : File read in 6.3s IO 5.5s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201506111600rainfallData.xml
+[2018/12/22 16:23:26][DEBUG] (FileUtils:1511) : File read in 6.3s IO 5.5s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201506121600rainfallData.xml
+[2018/12/22 16:24:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506131600rainfallData.xml
+[2018/12/22 16:24:49][DEBUG] (FileUtils:1511) : File read in 2.8s IO 1.7s 58 MB 33 MB/s E:\QpesumsAnalysis\RainfallData\original\201506131600rainfallData.xml
+[2018/12/22 16:27:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506141600rainfallData.xml
+[2018/12/22 16:28:02][DEBUG] (FileUtils:1511) : File read in 8.2s IO 7.0s 58 MB 8.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201506141600rainfallData.xml
+[2018/12/22 16:28:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506151600rainfallData.xml
+[2018/12/22 16:28:30][DEBUG] (FileUtils:1511) : File read in 6.1s IO 5.4s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201506151600rainfallData.xml
+[2018/12/22 16:31:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506161600rainfallData.xml
+[2018/12/22 16:31:19][DEBUG] (FileUtils:1511) : File read in 5.1s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201506161600rainfallData.xml
+[2018/12/22 16:34:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506171600rainfallData.xml
+[2018/12/22 16:34:39][DEBUG] (FileUtils:1511) : File read in 5.4s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201506171600rainfallData.xml
+[2018/12/22 16:36:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506181600rainfallData.xml
+[2018/12/22 16:36:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506191600rainfallData.xml
+[2018/12/22 16:36:06][DEBUG] (FileUtils:1511) : File read in 4.4s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201506181600rainfallData.xml
+[2018/12/22 16:36:06][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201506191600rainfallData.xml
+[2018/12/22 16:37:06][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506201600rainfallData.xml
+[2018/12/22 16:37:09][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201506201600rainfallData.xml
+[2018/12/22 16:39:37][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506211600rainfallData.xml
+[2018/12/22 16:39:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506221600rainfallData.xml
+[2018/12/22 16:39:47][DEBUG] (FileUtils:1511) : File read in 9.2s IO 8.5s 58 MB 6.8 MB/s E:\QpesumsAnalysis\RainfallData\original\201506211600rainfallData.xml
+[2018/12/22 16:39:48][DEBUG] (FileUtils:1511) : File read in 8.6s IO 5.7s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201506221600rainfallData.xml
+[2018/12/22 16:42:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506231600rainfallData.xml
+[2018/12/22 16:42:55][DEBUG] (FileUtils:1511) : File read in 9.7s IO 9.0s 58 MB 6.4 MB/s E:\QpesumsAnalysis\RainfallData\original\201506231600rainfallData.xml
+[2018/12/22 16:43:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506241600rainfallData.xml
+[2018/12/22 16:43:24][DEBUG] (FileUtils:1511) : File read in 5.1s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201506241600rainfallData.xml
+[2018/12/22 16:45:46][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506251600rainfallData.xml
+[2018/12/22 16:45:51][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201506251600rainfallData.xml
+[2018/12/22 16:58:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506261600rainfallData.xml
+[2018/12/22 16:59:01][DEBUG] (FileUtils:1511) : File read in 7.2s IO 6.2s 58 MB 9.3 MB/s E:\QpesumsAnalysis\RainfallData\original\201506261600rainfallData.xml
+[2018/12/22 16:59:41][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506271600rainfallData.xml
+[2018/12/22 16:59:41][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506291600rainfallData.xml
+[2018/12/22 16:59:41][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506281600rainfallData.xml
+[2018/12/22 16:59:41][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506301600rainfallData.xml
+[2018/12/22 16:59:46][DEBUG] (FileUtils:1511) : File read in 5.5s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201506281600rainfallData.xml
+[2018/12/22 16:59:47][DEBUG] (FileUtils:1511) : File read in 6.4s IO 5.5s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201506291600rainfallData.xml
+[2018/12/22 16:59:47][DEBUG] (FileUtils:1511) : File read in 6.5s IO 5.7s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201506271600rainfallData.xml
+[2018/12/22 16:59:48][DEBUG] (FileUtils:1511) : File read in 6.7s IO 5.4s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201506301600rainfallData.xml
+[2018/12/22 17:02:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507011600rainfallData.xml
+[2018/12/22 17:03:03][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201507011600rainfallData.xml
+[2018/12/22 17:03:08][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507021600rainfallData.xml
+[2018/12/22 17:03:12][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201507021600rainfallData.xml
+[2018/12/22 17:05:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507031600rainfallData.xml
+[2018/12/22 17:05:36][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201507031600rainfallData.xml
+[2018/12/22 17:05:45][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507041600rainfallData.xml
+[2018/12/22 17:05:47][DEBUG] (FileUtils:1511) : File read in 2.8s IO 2.1s 58 MB 27 MB/s E:\QpesumsAnalysis\RainfallData\original\201507041600rainfallData.xml
+[2018/12/22 17:07:57][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507051600rainfallData.xml
+[2018/12/22 17:08:01][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201507051600rainfallData.xml
+[2018/12/22 17:08:33][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507061600rainfallData.xml
+[2018/12/22 17:08:37][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.9s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201507061600rainfallData.xml
+[2018/12/22 17:11:51][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507071600rainfallData.xml
+[2018/12/22 17:11:56][DEBUG] (FileUtils:1511) : File read in 5.1s IO 4.4s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201507071600rainfallData.xml
+[2018/12/22 17:19:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507091600rainfallData.xml
+[2018/12/22 17:19:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507101600rainfallData.xml
+[2018/12/22 17:19:52][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507081600rainfallData.xml
+[2018/12/22 17:19:56][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.1s 59 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201507081600rainfallData.xml
+[2018/12/22 17:19:56][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201507101600rainfallData.xml
+[2018/12/22 17:19:56][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201507091600rainfallData.xml
+[2018/12/22 17:22:41][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507111600rainfallData.xml
+[2018/12/22 17:22:47][DEBUG] (FileUtils:1511) : File read in 5.6s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201507111600rainfallData.xml
+[2018/12/22 17:24:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507121600rainfallData.xml
+[2018/12/22 17:24:53][DEBUG] (FileUtils:1511) : File read in 4.0s IO 2.2s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201507121600rainfallData.xml
+[2018/12/22 17:25:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507131600rainfallData.xml
+[2018/12/22 17:26:03][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.3s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201507131600rainfallData.xml
+[2018/12/22 17:29:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507141600rainfallData.xml
+[2018/12/22 17:29:50][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507151600rainfallData.xml
+[2018/12/22 17:29:55][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201507141600rainfallData.xml
+[2018/12/22 17:29:56][DEBUG] (FileUtils:1511) : File read in 5.8s IO 5.1s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201507151600rainfallData.xml
+[2018/12/22 17:33:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507161600rainfallData.xml
+[2018/12/22 17:33:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507171600rainfallData.xml
+[2018/12/22 17:33:38][DEBUG] (FileUtils:1511) : File read in 7.2s IO 5.9s 58 MB 9.7 MB/s E:\QpesumsAnalysis\RainfallData\original\201507161600rainfallData.xml
+[2018/12/22 17:33:38][DEBUG] (FileUtils:1511) : File read in 7.8s IO 6.6s 58 MB 8.7 MB/s E:\QpesumsAnalysis\RainfallData\original\201507171600rainfallData.xml
+[2018/12/22 17:37:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507181600rainfallData.xml
+[2018/12/22 17:37:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507191600rainfallData.xml
+[2018/12/22 17:37:24][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201507181600rainfallData.xml
+[2018/12/22 17:37:25][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.7s 59 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201507191600rainfallData.xml
+[2018/12/22 17:41:22][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507201600rainfallData.xml
+[2018/12/22 17:41:23][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507211600rainfallData.xml
+[2018/12/22 17:41:24][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507221600rainfallData.xml
+[2018/12/22 17:41:28][DEBUG] (FileUtils:1511) : File read in 7.4s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201507201600rainfallData.xml
+[2018/12/22 17:41:28][DEBUG] (FileUtils:1511) : File read in 4.8s IO 4.1s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201507211600rainfallData.xml
+[2018/12/22 17:41:29][DEBUG] (FileUtils:1511) : File read in 4.7s IO 4.0s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201507221600rainfallData.xml
+[2018/12/22 17:45:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507231600rainfallData.xml
+[2018/12/22 17:45:52][DEBUG] (FileUtils:1511) : File read in 2.7s IO 2.0s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201507231600rainfallData.xml
+[2018/12/22 17:48:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507241600rainfallData.xml
+[2018/12/22 17:48:03][DEBUG] (FileUtils:1511) : File read in 3.7s IO 2.8s 58 MB 20 MB/s E:\QpesumsAnalysis\RainfallData\original\201507241600rainfallData.xml
+[2018/12/22 17:49:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507251600rainfallData.xml
+[2018/12/22 17:49:18][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201507251600rainfallData.xml
+[2018/12/22 17:51:43][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507261600rainfallData.xml
+[2018/12/22 17:51:47][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201507261600rainfallData.xml
+[2018/12/22 17:53:57][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507271600rainfallData.xml
+[2018/12/22 17:54:01][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.3s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201507271600rainfallData.xml
+[2018/12/22 17:56:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507281600rainfallData.xml
+[2018/12/22 17:56:07][DEBUG] (FileUtils:1511) : File read in 6.7s IO 4.3s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201507281600rainfallData.xml
+[2018/12/22 17:57:42][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507291600rainfallData.xml
+[2018/12/22 17:57:46][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201507291600rainfallData.xml
+[2018/12/22 18:00:38][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507301600rainfallData.xml
+[2018/12/22 18:00:42][DEBUG] (FileUtils:1511) : File read in 4.1s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201507301600rainfallData.xml
+[2018/12/22 18:01:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507311600rainfallData.xml
+[2018/12/22 18:01:58][DEBUG] (FileUtils:1511) : File read in 4.2s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201507311600rainfallData.xml
+[2018/12/22 18:05:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201508011600rainfallData.xml
+[2018/12/22 18:05:06][DEBUG] (FileUtils:1511) : File read in 4.0s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201508011600rainfallData.xml
+[2018/12/22 18:05:28][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201508021600rainfallData.xml
+[2018/12/22 18:05:32][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201508021600rainfallData.xml
+[2018/12/22 18:06:59][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201508031600rainfallData.xml
+[2018/12/22 18:07:02][DEBUG] (FileUtils:1511) : File read in 2.7s IO 1.9s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201508031600rainfallData.xml
+[2018/12/22 18:09:20][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201508041600rainfallData.xml
+[2018/12/22 18:09:23][DEBUG] (FileUtils:1511) : File read in 3.0s IO 2.3s 58 MB 25 MB/s E:\QpesumsAnalysis\RainfallData\original\201508041600rainfallData.xml
+[2018/12/22 18:09:54][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201508051600rainfallData.xml
+[2018/12/22 18:09:57][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.1s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201508051600rainfallData.xml
+[2018/12/22 18:10:43][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201508061600rainfallData.xml
+[2018/12/22 18:10:46][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201508061600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507271600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507091600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507081600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201506201600rainfallData.xml
+[2018/12/22 18:51:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201507241600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 3.6s IO 2.0s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201502191600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 3.8s IO 2.0s 58 MB 28 MB/s E:\QpesumsAnalysis\RainfallData\original\201507241600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 3.9s IO 2.2s 58 MB 26 MB/s E:\QpesumsAnalysis\RainfallData\original\201502201600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 4.1s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201507091600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 4.2s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201507271600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 4.2s IO 2.4s 58 MB 24 MB/s E:\QpesumsAnalysis\RainfallData\original\201506201600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 4.4s IO 2.6s 58 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 18:51:36][DEBUG] (FileUtils:1511) : File read in 4.4s IO 2.6s 59 MB 22 MB/s E:\QpesumsAnalysis\RainfallData\original\201507081600rainfallData.xml
+[2018/12/22 19:29:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 19:29:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 19:29:58][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 19:29:59][DEBUG] (FileUtils:1511) : File read in 0.9s IO 0.0s 58 MB 1.9 GB/s E:\QpesumsAnalysis\RainfallData\original\201502221600rainfallData.xml
+[2018/12/22 19:30:01][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.4s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201502241600rainfallData.xml
+[2018/12/22 19:30:01][DEBUG] (FileUtils:1511) : File read in 3.2s IO 2.5s 58 MB 23 MB/s E:\QpesumsAnalysis\RainfallData\original\201502231600rainfallData.xml
+[2018/12/22 19:31:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 19:31:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 19:31:53][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502261600rainfallData.xml
+[2018/12/22 19:32:04][DEBUG] (FileUtils:1511) : File read in 11s IO 10s 58 MB 5.3 MB/s E:\QpesumsAnalysis\RainfallData\original\201502251600rainfallData.xml
+[2018/12/22 19:32:04][DEBUG] (FileUtils:1511) : File read in 11s IO 10s 58 MB 5.3 MB/s E:\QpesumsAnalysis\RainfallData\original\201502271600rainfallData.xml
+[2018/12/22 19:32:06][DEBUG] (FileUtils:1511) : File read in 13s IO 12s 58 MB 4.6 MB/s E:\QpesumsAnalysis\RainfallData\original\201502261600rainfallData.xml
+[2018/12/22 19:37:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201502281600rainfallData.xml
+[2018/12/22 19:37:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503011600rainfallData.xml
+[2018/12/22 19:37:29][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503021600rainfallData.xml
+[2018/12/22 19:37:30][DEBUG] (FileUtils:1511) : File read in 3.5s IO 2.8s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201503011600rainfallData.xml
+[2018/12/22 19:37:32][DEBUG] (FileUtils:1511) : File read in 5.4s IO 4.7s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201502281600rainfallData.xml
+[2018/12/22 19:37:33][DEBUG] (FileUtils:1511) : File read in 6.2s IO 3.4s 58 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201503021600rainfallData.xml
+[2018/12/22 19:40:55][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503031600rainfallData.xml
+[2018/12/22 19:41:01][DEBUG] (FileUtils:1511) : File read in 5.7s IO 5.1s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201503031600rainfallData.xml
+[2018/12/22 20:03:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503041600rainfallData.xml
+[2018/12/22 20:03:49][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503051600rainfallData.xml
+[2018/12/22 20:03:52][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.1s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201503041600rainfallData.xml
+[2018/12/22 20:03:54][DEBUG] (FileUtils:1511) : File read in 5.3s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201503051600rainfallData.xml
+[2018/12/22 20:04:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503061600rainfallData.xml
+[2018/12/22 20:04:05][DEBUG] (FileUtils:1511) : File read in 3.7s IO 1.9s 58 MB 29 MB/s E:\QpesumsAnalysis\RainfallData\original\201503061600rainfallData.xml
+[2018/12/22 20:10:07][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503071600rainfallData.xml
+[2018/12/22 20:10:10][DEBUG] (FileUtils:1511) : File read in 3.3s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201503071600rainfallData.xml
+[2018/12/22 21:22:02][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503081600rainfallData.xml
+[2018/12/22 21:22:14][DEBUG] (FileUtils:1511) : File read in 12s IO 11s 58 MB 5.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201503081600rainfallData.xml
+[2018/12/22 21:30:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503091600rainfallData.xml
+[2018/12/22 21:30:23][DEBUG] (FileUtils:1511) : File read in 6.9s IO 6.3s 58 MB 9.1 MB/s E:\QpesumsAnalysis\RainfallData\original\201503091600rainfallData.xml
+[2018/12/22 21:34:09][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503101600rainfallData.xml
+[2018/12/22 21:34:19][DEBUG] (FileUtils:1511) : File read in 9.8s IO 9.0s 58 MB 6.5 MB/s E:\QpesumsAnalysis\RainfallData\original\201503101600rainfallData.xml
+[2018/12/22 21:34:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503111600rainfallData.xml
+[2018/12/22 21:34:39][DEBUG] (FileUtils:1511) : File read in 5.6s IO 4.8s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201503111600rainfallData.xml
+[2018/12/22 21:35:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503121600rainfallData.xml
+[2018/12/22 21:35:22][DEBUG] (FileUtils:1511) : File read in 9.3s IO 8.6s 58 MB 6.7 MB/s E:\QpesumsAnalysis\RainfallData\original\201503121600rainfallData.xml
+[2018/12/22 21:37:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503131600rainfallData.xml
+[2018/12/22 21:37:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503151600rainfallData.xml
+[2018/12/22 21:37:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503161600rainfallData.xml
+[2018/12/22 21:37:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503171600rainfallData.xml
+[2018/12/22 21:37:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503181600rainfallData.xml
+[2018/12/22 21:37:17][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503141600rainfallData.xml
+[2018/12/22 21:37:22][DEBUG] (FileUtils:1511) : File read in 4.5s IO 3.5s 58 MB 16 MB/s E:\QpesumsAnalysis\RainfallData\original\201503151600rainfallData.xml
+[2018/12/22 21:37:22][DEBUG] (FileUtils:1511) : File read in 4.9s IO 4.0s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201503161600rainfallData.xml
+[2018/12/22 21:37:22][DEBUG] (FileUtils:1511) : File read in 5.0s IO 3.9s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201503131600rainfallData.xml
+[2018/12/22 21:37:23][DEBUG] (FileUtils:1511) : File read in 5.9s IO 4.9s 58 MB 12 MB/s E:\QpesumsAnalysis\RainfallData\original\201503171600rainfallData.xml
+[2018/12/22 21:37:26][DEBUG] (FileUtils:1511) : File read in 8.6s IO 7.5s 58 MB 7.6 MB/s E:\QpesumsAnalysis\RainfallData\original\201503141600rainfallData.xml
+[2018/12/22 21:37:27][DEBUG] (FileUtils:1511) : File read in 9.7s IO 8.4s 58 MB 6.8 MB/s E:\QpesumsAnalysis\RainfallData\original\201503181600rainfallData.xml
+[2018/12/22 21:39:44][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503191600rainfallData.xml
+[2018/12/22 21:39:48][DEBUG] (FileUtils:1511) : File read in 4.3s IO 3.7s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201503191600rainfallData.xml
+[2018/12/22 21:45:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503201600rainfallData.xml
+[2018/12/22 21:45:31][DEBUG] (FileUtils:1511) : File read in 3.7s IO 3.0s 58 MB 19 MB/s E:\QpesumsAnalysis\RainfallData\original\201503201600rainfallData.xml
+[2018/12/22 21:46:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503211600rainfallData.xml
+[2018/12/22 21:46:27][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503221600rainfallData.xml
+[2018/12/22 21:46:33][DEBUG] (FileUtils:1511) : File read in 6.4s IO 5.7s 58 MB 10 MB/s E:\QpesumsAnalysis\RainfallData\original\201503211600rainfallData.xml
+[2018/12/22 21:46:33][DEBUG] (FileUtils:1511) : File read in 6.7s IO 5.4s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201503221600rainfallData.xml
+[2018/12/22 21:57:19][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503231600rainfallData.xml
+[2018/12/22 21:57:29][DEBUG] (FileUtils:1511) : File read in 10s IO 9.3s 58 MB 6.2 MB/s E:\QpesumsAnalysis\RainfallData\original\201503231600rainfallData.xml
+[2018/12/22 21:59:12][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503241600rainfallData.xml
+[2018/12/22 21:59:21][DEBUG] (FileUtils:1511) : File read in 8.9s IO 8.2s 58 MB 7.0 MB/s E:\QpesumsAnalysis\RainfallData\original\201503241600rainfallData.xml
+[2018/12/22 22:01:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503251600rainfallData.xml
+[2018/12/22 22:01:04][DEBUG] (FileUtils:1511) : File read in 4.0s IO 3.4s 59 MB 17 MB/s E:\QpesumsAnalysis\RainfallData\original\201503251600rainfallData.xml
+[2018/12/22 23:14:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503261600rainfallData.xml
+[2018/12/22 23:14:34][DEBUG] (FileUtils:1511) : File read in 2.1s IO 1.4s 58 MB 41 MB/s E:\QpesumsAnalysis\RainfallData\original\201503261600rainfallData.xml
+[2018/12/22 23:16:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503271600rainfallData.xml
+[2018/12/22 23:16:22][DEBUG] (FileUtils:1511) : File read in 9.2s IO 8.4s 58 MB 6.9 MB/s E:\QpesumsAnalysis\RainfallData\original\201503271600rainfallData.xml
+[2018/12/22 23:17:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503281600rainfallData.xml
+[2018/12/22 23:17:00][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503291600rainfallData.xml
+[2018/12/22 23:17:09][DEBUG] (FileUtils:1511) : File read in 8.2s IO 7.5s 58 MB 7.6 MB/s E:\QpesumsAnalysis\RainfallData\original\201503291600rainfallData.xml
+[2018/12/22 23:17:09][DEBUG] (FileUtils:1511) : File read in 8.6s IO 7.9s 58 MB 7.3 MB/s E:\QpesumsAnalysis\RainfallData\original\201503281600rainfallData.xml
+[2018/12/22 23:17:16][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503301600rainfallData.xml
+[2018/12/22 23:17:20][DEBUG] (FileUtils:1511) : File read in 5.5s IO 3.2s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201503301600rainfallData.xml
+[2018/12/22 23:19:30][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201503311600rainfallData.xml
+[2018/12/22 23:19:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504031600rainfallData.xml
+[2018/12/22 23:19:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504021600rainfallData.xml
+[2018/12/22 23:19:31][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504011600rainfallData.xml
+[2018/12/22 23:19:36][DEBUG] (FileUtils:1511) : File read in 6.0s IO 3.9s 58 MB 15 MB/s E:\QpesumsAnalysis\RainfallData\original\201504011600rainfallData.xml
+[2018/12/22 23:19:36][DEBUG] (FileUtils:1511) : File read in 6.2s IO 5.4s 58 MB 11 MB/s E:\QpesumsAnalysis\RainfallData\original\201503311600rainfallData.xml
+[2018/12/22 23:19:36][DEBUG] (FileUtils:1511) : File read in 6.3s IO 4.2s 58 MB 14 MB/s E:\QpesumsAnalysis\RainfallData\original\201504031600rainfallData.xml
+[2018/12/22 23:19:37][DEBUG] (FileUtils:1511) : File read in 6.6s IO 4.5s 58 MB 13 MB/s E:\QpesumsAnalysis\RainfallData\original\201504021600rainfallData.xml
+[2018/12/22 23:25:13][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504041600rainfallData.xml
+[2018/12/22 23:25:26][DEBUG] (FileUtils:1511) : File read in 12s IO 11s 58 MB 4.9 MB/s E:\QpesumsAnalysis\RainfallData\original\201504041600rainfallData.xml
+[2018/12/22 23:29:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504051600rainfallData.xml
+[2018/12/22 23:29:40][DEBUG] (FileUtils:1511) : File read in 8.8s IO 8.1s 58 MB 7.1 MB/s E:\QpesumsAnalysis\RainfallData\original\201504051600rainfallData.xml
+[2018/12/22 23:35:18][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504061600rainfallData.xml
+[2018/12/22 23:35:32][DEBUG] (FileUtils:1511) : File read in 14s IO 13s 58 MB 4.3 MB/s E:\QpesumsAnalysis\RainfallData\original\201504061600rainfallData.xml
+[2018/12/22 23:37:40][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504071600rainfallData.xml
+[2018/12/22 23:37:50][DEBUG] (FileUtils:1511) : File read in 11s IO 9.8s 58 MB 5.9 MB/s E:\QpesumsAnalysis\RainfallData\original\201504071600rainfallData.xml
+[2018/12/22 23:39:34][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504081600rainfallData.xml
+[2018/12/22 23:39:37][DEBUG] (FileUtils:1511) : File read in 3.4s IO 2.7s 58 MB 21 MB/s E:\QpesumsAnalysis\RainfallData\original\201504081600rainfallData.xml
+[2018/12/22 23:49:32][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504091600rainfallData.xml
+[2018/12/22 23:49:34][DEBUG] (FileUtils:1511) : File read in 2.5s IO 1.9s 58 MB 30 MB/s E:\QpesumsAnalysis\RainfallData\original\201504091600rainfallData.xml
+[2018/12/22 23:54:37][DEBUG] (FileUtils:1471) : Open file for read E:\QpesumsAnalysis\RainfallData\original\201504101600rainfallData.xml
+[2018/12/22 23:54:41][DEBUG] (FileUtils:1511) : File read in 3.8s IO 3.1s 58 MB 18 MB/s E:\QpesumsAnalysis\RainfallData\original\201504101600rainfallData.xml
