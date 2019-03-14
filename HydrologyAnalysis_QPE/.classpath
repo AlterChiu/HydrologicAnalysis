@@ -8,5 +8,10 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/XML"/>
 	<classpathentry kind="lib" path="F:/JAVA library/commonTool.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/GDAL"/>
+	<classpathentry kind="lib" path="F:/JAVA library/dataBase/msSql/izmado.jar"/>
+	<classpathentry kind="lib" path="F:/JAVA library/dataBase/msSql/jtds-1.2.2.jar"/>
+	<classpathentry kind="lib" path="F:/JAVA library/dataBase/msSql/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="lib" path="F:/JAVA library/dataBase/msSql/sqljdbc4-2.0.jar"/>
+	<classpathentry kind="lib" path="F:/JAVA library/DataBaseController.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

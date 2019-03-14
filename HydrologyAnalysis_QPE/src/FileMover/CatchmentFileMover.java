@@ -1,24 +1,29 @@
 package FileMover;
 
 import java.io.File;
+import java.io.IOException;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import usualTool.FileFunction;
+import GlobalProperty.GlobalProperty;
 
-public class MoveFile {
-	private static int threadNum = 20;
-	public static String fileAdd = "E:\\QpesumsAnalysis\\RainfallData\\catchment\\";
-	public static String saveAdd = "H:\\RainfallData\\catchment\\";
-	public static FileFunction ff = new FileFunction();
+public class CatchmentFileMover extends GlobalProperty {
+
+	/*
+	 * select the event from each catchment by given time delay
+	 */
+	private static int threadNum = 4;
+	public static String fileAdd = catchment_RainfallFolder;
 	public static String[] fileList = null;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub
-		int fileCount = 26;
+
+		int fileCount = 10000;
 
 		// the fileList here is the name of catchments
 		List<String> catchmentsList = new ArrayList<>(Arrays.asList(fileList = new File(fileAdd).list()));
@@ -50,7 +55,6 @@ public class MoveFile {
 			for (int index = 0; index < threadNum; index++) {
 				if (!threadList.get(index).isAlive()) {
 					System.out.println(threadList.get(index).getName() + " end");
-					fileCount++;
 
 					if (fileCount == fileLength) {
 						break runThread;
@@ -59,36 +63,35 @@ public class MoveFile {
 						threadList.put(index, initialThread(catchmentsList.get(fileCount), fileCount));
 						threadList.get(index).start();
 					}
+
+					fileCount++;
 				}
 			}
 		}
-	}
 
-	private static List<String> loseData() {
-		String[] timeList = new String[] {"4"};
-		return new ArrayList<String>(Arrays.asList(timeList));
+		/*
+		 * end thread
+		 */
+		while (threadList.size() > 0) {
+			for (Object index : threadList.keySet().toArray()) {
+				if (!threadList.get(index).isAlive()) {
+					System.out.println(threadList.get(index).getName() + " end");
+					threadList.remove(index);
+				}
+			}
+		}
+
 	}
 
 	private static Thread initialThread(String targetCatchment, int fileCount) {
-		Thread temptThread = new Thread(new threadClass(fileAdd + targetCatchment, saveAdd + targetCatchment));
+		Thread temptThread = new Thread(new CatchmentFileMover_Thread(targetCatchment));
 		temptThread.setName(fileCount + "");
 		return temptThread;
 	}
 
-	public static class threadClass extends Thread {
-		private String targetFolder = "";
-		private String saveFolder = "";
-
-		public threadClass(String targetFolder, String saveFolder) {
-			this.targetFolder = targetFolder + "\\day\\";
-			this.saveFolder = saveFolder + "\\day\\";
-		}
-
-		public void run() {
-			String[] eventList = new File(this.targetFolder).list();
-			for (String event : eventList) {
-				ff.copyFile(targetFolder + event, saveFolder + event);
-			}
-		}
+	private static List<String> loseData() {
+		String[] timeList = new String[] { "22786" };
+		return new ArrayList<String>(Arrays.asList(timeList));
 	}
+
 }

@@ -10,7 +10,7 @@ public class GlobalProperty {
 	public static int startYear = 2006;
 	public static int endYear = 2017;
 	public static int[] returnPeriod_year = new int[] { 2, 5, 10, 50, 100, 150, 200, 500 };
-	public static int[] returnPeriod_delayTime =new int[] { 1, 3, 6, 12, 18, 24, 48, 72 };
+	public static int[] returnPeriod_delayTime = new int[] { 1, 3, 6, 12, 18, 24, 48, 72 };
 	public static String[] returnPeriod_distribution = new String[] { "EV1", "LN3", "LPT3", "PT3" };
 
 	// <================================================>
@@ -26,6 +26,7 @@ public class GlobalProperty {
 	static public String catchment_RainfallFolder_Day = "\\day\\";
 
 	static public String designRainfall_CreateFolder = rainfallDataFolder + "\\createRainfall\\";
+	static public String rainfallDataStaticsFolder = rainfallDataFolder + "\\statics\\";
 
 	static public String catchment_RainfallAnalysis_total = "\\total.csv";
 	static public String catchment_RainfallAnalysis_event = "eventProperty.csv";
