@@ -1,4 +1,4 @@
-package CreateEvent.ScanningVersion;
+package Catchments.ScanningVersion;
 
 import java.io.File;
 import java.io.IOException;

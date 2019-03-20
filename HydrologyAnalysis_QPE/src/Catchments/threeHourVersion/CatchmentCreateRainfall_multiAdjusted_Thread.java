@@ -1,4 +1,4 @@
-package CreateEvent.threeHourVersion;
+package Catchments.threeHourVersion;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -19,10 +19,10 @@ import Hydro.Rainfall.ReturnPeriod.ReturnPeriod_LN3;
 import Hydro.Rainfall.ReturnPeriod.ReturnPeriod_LPT3;
 import Hydro.Rainfall.ReturnPeriod.ReturnPeriod_PT3;
 
-public class CatchmentCreateRainfall_Thread extends Thread {
+public class CatchmentCreateRainfall_multiAdjusted_Thread extends Thread {
 	private String targetFolder = "";
 
-	public CatchmentCreateRainfall_Thread(String targetFolder) {
+	public CatchmentCreateRainfall_multiAdjusted_Thread(String targetFolder) {
 		this.targetFolder = targetFolder;
 	}
 
@@ -40,14 +40,7 @@ public class CatchmentCreateRainfall_Thread extends Thread {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		}
-//		for (String[] event : catchmentData) {
-//			double temptValue = Double.parseDouble(event[0]);
-//			if (temptValue >= CatchmentCreateRainfall.minRainfallValue) {
-//				rainfallList_24.add(temptValue);
-//			}
-//		}
-
-		if (catchmentData.length > 200) {
+		if (catchmentData.length > 100) {
 			for (String[] event : catchmentData) {
 				double temptValue = Double.parseDouble(event[0]);
 				if (temptValue >= CatchmentCreateRainfall.minRainfallValue) {
@@ -91,8 +84,10 @@ public class CatchmentCreateRainfall_Thread extends Thread {
 		outContent.add(0, outContentTitle.toString());
 		try {
 			new AtFileWriter(outContent.parallelStream().toArray(String[]::new),
-					GlobalProperty.catchment_RainfallFolder + targetFolder + CatchmentCreateRainfall.saveName)
-							.textWriter("");
+					GlobalProperty.catchment_RainfallFolder + targetFolder + "\\" + CatchmentCreateRainfall.maximumDelay
+							+ "_" + CatchmentCreateRainfall.minmumEventPeriod + "_"
+							+ CatchmentCreateRainfall.minRainfallValue + "_noRatio_"
+							+ GlobalProperty.catchment_RainfallAnalysis_Distribution).textWriter("");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

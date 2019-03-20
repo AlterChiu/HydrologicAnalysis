@@ -1,4 +1,4 @@
-package CreateEvent.ScanningVersion;
+package Catchments.ScanningVersion;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -48,23 +48,23 @@ public class CatchmentCreateRainfall_Thread extends Thread {
 			/*
 			 * get the year max
 			 */
-//			try {
-//				int temptYear = Integer.parseInt(TimeTranslate.StringGetSelected(temptLine[1], "yyyyMMddHH", "yyyy"));
-//				double temptRainfall = maxRainfallMap.get(temptYear);
-//
-//				if (temptRainfall < Double.parseDouble(temptLine[0])) {
-//					maxRainfallMap.put(temptYear, Double.parseDouble(temptLine[0]));
-//				}
-//
-//			} catch (NumberFormatException | ParseException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
+			try {
+				int temptYear = Integer.parseInt(TimeTranslate.StringGetSelected(temptLine[1], "yyyyMMddHH", "yyyy"));
+				double temptRainfall = maxRainfallMap.get(temptYear);
 
-			/*
-			 * get the all events
-			 */
-			rainfallList_24.add(Double.parseDouble(temptLine[0]));
+				if (temptRainfall < Double.parseDouble(temptLine[0])) {
+					maxRainfallMap.put(temptYear, Double.parseDouble(temptLine[0]));
+				}
+
+			} catch (NumberFormatException | ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+//			/*
+//			 * get the all events
+//			 */
+//			rainfallList_24.add(Double.parseDouble(temptLine[0]));
 		}
 
 		/*

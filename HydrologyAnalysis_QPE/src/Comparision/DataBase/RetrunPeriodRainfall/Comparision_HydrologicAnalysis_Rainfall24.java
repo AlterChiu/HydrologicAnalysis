@@ -25,7 +25,7 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 
 	public static Connection dataBaseConnection;
 	public static String distributionNameList[] = new String[] { "EV1", "LN3", "LPT3", "PT3" };
-	public static int[] eventDelays = new int[] { 1, 3, 6, 12, 18, 24, 48, 72 };
+	public static int[] eventDelays = new int[] { 24};
 	public static int returnPeriod = 200;
 
 	public static String shpFileAdd = "H:\\RainfallData\\Polygon\\MergeAll.shp";
@@ -70,37 +70,25 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 
 					// setting attribute table for output shpFile
 					Map<String, Object> polygonOutAttribute = new TreeMap<>();
-					Path2D temptPolygon = GdalGlobal.GeomertyToPath2D(geoList.get(index));
 
 					// set output shpFile property
 					String polygonID = attList.get(index).get("ID");
 					polygonOutAttribute.put("ID", polygonID);
 					System.out.print(index + "\t" + polygonID);
 
-					// each polygon
-					if (temptPolygon != null) {
+					// get from database
+					Map<Integer, Double> polygonDataBaseValue = ReadDataBaseData
+							.getCatchmentReturnPeriodValue(polygonID, returnPeriod, eventDelay);
 
-						// get from database
-						Map<Integer, Double> polygonDataBaseValue = ReadDataBaseData
-								.getCatchmentReturnPeriodValue(polygonID, returnPeriod, eventDelay);
+					// if database has no data with this polygon
+					if (polygonDataBaseValue.keySet().size() == 0) {
+						polygonOutAttribute.put("error", "Database Error");
+						System.out.print("\tdatabase error\t");
+					} else {
 
-						// if database has no data with this polygon
-						if (polygonDataBaseValue.keySet().size() == 0) {
-							polygonOutAttribute.put("error", "Database Error");
-							System.out.print("\tdatabase error\t");
-						} else {
-
-							// set attribute table value for each polygon
-							polygonOutAttribute = setOutAttributeTable(eventDelay, distribution, temptPolygon,
-									polygonDataBaseValue, polygonOutAttribute);
-
-						}
-					}
-
-					// if polygon is wrong
-					else {
-						polygonOutAttribute.put("error", "Polygon Error");
-						System.out.print("\tpolygon error\t");
+						// set attribute table value for each polygon
+						polygonOutAttribute = setOutAttributeTable(eventDelay, distribution, geoList.get(index),
+								polygonDataBaseValue, polygonOutAttribute);
 					}
 
 					// save polygon feature
@@ -136,13 +124,14 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 	/*
 	 * for eachPolygon
 	 */
-	private static Map<String, Object> setOutAttributeTable(int eventDelay, String distribution, Path2D temptPolygon,
+	private static Map<String, Object> setOutAttributeTable(int eventDelay, String distribution, Geometry temptPolygon,
 			Map<Integer, Double> polygonDataBaseValue, Map<String, Object> polygonOutAttribute) throws IOException {
 
 		// read asciiFile and asciiValue;
 		AsciiBasicControl ascii = new AsciiBasicControl(
 				folder_QPE_Analysis + "\\" + eventDelay + "\\" + distribution + "_" + returnPeriod + ".asc");
-		String temptAsciiValue = ascii.getValue(getPathTranslated(temptPolygon));
+		String temptAsciiValue = ascii
+				.getValue(GdalGlobal.geometryTranlster(temptPolygon, GdalGlobal.TWD97_121, GdalGlobal.WGS84));
 		double asciiMeanValue = Double.parseDouble(temptAsciiValue);
 		if (temptAsciiValue.equals(ascii.getNullValue())) {
 			polygonOutAttribute.put("asc_value", 0.);
@@ -196,27 +185,6 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 		} else {
 			return 0;
 		}
-	}
-
-	/*
-	 * coordinate translate
-	 */
-	private static Path2D getPathTranslated(Path2D path) {
-		PathIterator pathIt = path.getPathIterator(null);
-		double[] coordinate = new double[2];
-		Path2D outPath = new Path2D.Double();
-
-		pathIt.currentSegment(coordinate);
-		coordinate = CoordinateTranslate.Twd97ToWgs84(coordinate[0], coordinate[1]);
-		outPath.moveTo(coordinate[0], coordinate[1]);
-		pathIt.next();
-
-		for (; !pathIt.isDone(); pathIt.next()) {
-			pathIt.currentSegment(coordinate);
-			coordinate = CoordinateTranslate.Twd97ToWgs84(coordinate[0], coordinate[1]);
-			outPath.lineTo(coordinate[0], coordinate[1]);
-		}
-		return outPath;
 	}
 
 }

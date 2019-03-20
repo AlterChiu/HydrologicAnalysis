@@ -1,4 +1,4 @@
-package Statics.YearMax;
+package Catchments.GetYearMaxRainfall;
 
 import java.io.IOException;
 import java.math.BigDecimal;

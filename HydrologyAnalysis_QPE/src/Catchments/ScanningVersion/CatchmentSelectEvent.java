@@ -1,4 +1,4 @@
-package CreateEvent.ScanningVersion;
+package Catchments.ScanningVersion;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +22,7 @@ public class CatchmentSelectEvent extends GlobalProperty {
 	public static int eventDelayTime = 1;
 	public static String saveName = "\\" + CatchmentSelectEvent.eventDelayTime + "_eventDelay_Rainfall.csv";
 
-	public static double maximumRainfall = 200;
+	public static double maximumRainfall = 250;
 
 	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub

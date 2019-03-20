@@ -48,40 +48,14 @@ public class FillReturnPeriod {
 			Map<String, Object> feature = new TreeMap<>();
 			for (String returnPeriod : rainfallReturenPeriod) {
 				AsciiBasicControl rainfallAscii = new AsciiBasicControl(rainfallDataAdd + returnPeriod + ".asc");
+				String temptValue = rainfallAscii.getValue(temptPolygon);
 
-				// get the boundary of the polygon
-				Rectangle temptPath = GdalGlobal.GeomertyToPath2D(temptPolygon).getBounds();
-
-				double maxX = temptPath.getMaxX();
-				double minX = temptPath.getMinX();
-				double maxY = temptPath.getMaxY();
-				double minY = temptPath.getMinY();
-
-				double startCoordinate_WGS84[] = CoordinateTranslate.Twd97ToWgs84(maxX, maxY);
-				double endCoordinate_WGS84[] = CoordinateTranslate.Twd97ToWgs84(minX, minY);
-				// translate from twd97 to wgs84
-				int startPosition[] = rainfallAscii.getPosition(startCoordinate_WGS84[0], endCoordinate_WGS84[1]);
-				int endPosition[] = rainfallAscii.getPosition(endCoordinate_WGS84[0], endCoordinate_WGS84[1]);
-
-				// scanning the grid which contacted the polygon
-				List<Double> valueList = new ArrayList<>();
-				for (int row = startPosition[1]; row <= endPosition[1]; row++) {
-					for (int column = startPosition[0]; column <= endPosition[0]; column++) {
-						// check the grid center is inside the polygon or not
-						double[] gridCoordinate = rainfallAscii.getCoordinate(column, row);
-						if (temptPath.contains(gridCoordinate[0], gridCoordinate[1])) {
-							valueList.add(Double.parseDouble(rainfallAscii.getValue(column, row)));
-						}
-					}
-				}
-
-				// if there is no grid center in the polygon
-				if (valueList.size() == 0) {
-					feature.put(returnPeriod,
-							Double.parseDouble(rainfallAscii.getValue((maxX + minX) / 2, (minY + maxY) / 2)));
+				if (!temptValue.equals(rainfallAscii.getNullValue())) {
+					feature.put(returnPeriod, (Double) Double.parseDouble(temptValue));
 				} else {
-					feature.put(returnPeriod, (Double) new AtCommonMath(valueList).getMean());
+					feature.put(returnPeriod, (Double) 0.0);
 				}
+
 			}
 
 			// set the output attribute feature of shape file

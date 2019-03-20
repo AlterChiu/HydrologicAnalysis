@@ -24,8 +24,7 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 
 	public static Connection dataBaseConnection;
 	public static int[] years = new int[] { 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017 };
-	public static int[] eventDelays = new int[] { 1, 3, 6, 12, 18, 24, 48, 72 };
-	public static int returnPeriod = 200;
+	public static int[] eventDelays = new int[] { 24 };
 
 	public static String shpFileAdd = "H:\\RainfallData\\Polygon\\MergeAll.shp";
 	public static String shpFileSaveAdd = "H:\\RainfallData\\Polygon\\MaxRainfall";
@@ -42,8 +41,7 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 		/*
 		 * output shpFile
 		 */
-		// out attribute tale
-		List<Map<String, Object>> outAtt = new ArrayList<>();
+
 		// out attribute table type
 		Map<String, String> outAttType = new TreeMap<>();
 		outAttType.put("ID", "String");
@@ -66,49 +64,38 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 			// for each distribution
 			for (int year : years) {
 
+				// out attribute tale
+				List<Map<String, Object>> outAtt = new ArrayList<>();
+
 				// for each polygon
 				for (int index = 0; index < geoList.size(); index++) {
 
 					// setting attribute table for output shpFile
 					Map<String, Object> polygonOutAttribute = new TreeMap<>();
-					Path2D temptPolygon = GdalGlobal.GeomertyToPath2D(geoList.get(index));
 
 					// set output shpFile property
 					String polygonID = attList.get(index).get("ID");
 					polygonOutAttribute.put("ID", polygonID);
 					System.out.print(index + "\t" + polygonID);
 
-					// each polygon
-					if (temptPolygon != null) {
+					// get from database
+					double polygonDataBaseValue = ReadDataBaseData.getCatchmentReturnYearMaxValue(polygonID, year,
+							eventDelay);
 
-						// get from database
-						double polygonDataBaseValue = ReadDataBaseData.getCatchmentReturnYearMaxValue(polygonID, year,
-								eventDelay);
+					// if database has no data with this polygon
+					if (polygonDataBaseValue < 0) {
+						polygonOutAttribute.put("error", "Database Error");
+						System.out.print("\tdatabase error\t");
+					} else {
 
-						// if database has no data with this polygon
-						if (polygonDataBaseValue < 0) {
-							polygonOutAttribute.put("error", "Database Error");
-							System.out.print("\tdatabase error\t");
-						} else {
-
-							// set attribute table value for each polygon
-							polygonOutAttribute = setOutAttributeTable(eventDelay, year, temptPolygon,
-									polygonDataBaseValue, polygonOutAttribute);
-						}
-					}
-
-					/*
-					 * if the polygon is wrong
-					 */
-					else {
-						polygonOutAttribute.put("error", "Polygon Error");
-						System.out.print("\tpolygon error\t");
+						// set attribute table value for each polygon
+						polygonOutAttribute = setOutAttributeTable(eventDelay, year, geoList.get(index),
+								polygonDataBaseValue, polygonOutAttribute);
 					}
 
 					// save polygon feature
 					outAtt.add(polygonOutAttribute);
 					System.out.println("\tend");
-
 				}
 
 				// output the shpFile
@@ -137,12 +124,13 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 	/*
 	 * for eachPolygon
 	 */
-	private static Map<String, Object> setOutAttributeTable(int eventDelay, int year, Path2D temptPolygon,
+	private static Map<String, Object> setOutAttributeTable(int eventDelay, int year, Geometry temptPolygon,
 			double polygonDataBaseValue, Map<String, Object> polygonOutAttribute) throws IOException {
 
 		// read asciiFile and asciiValue;
 		AsciiBasicControl ascii = new AsciiBasicControl(folder_QPE_Analysis + "\\" + eventDelay + "\\" + year + ".asc");
-		String temptAsciiValue = ascii.getValue(getPathTranslated(temptPolygon));
+		String temptAsciiValue = ascii
+				.getValue(GdalGlobal.geometryTranlster(temptPolygon, GdalGlobal.TWD97_121, GdalGlobal.WGS84));
 		double asciiMeanValue = Double.parseDouble(temptAsciiValue);
 		if (temptAsciiValue.equals(ascii.getNullValue())) {
 			polygonOutAttribute.put("asc_value", 0.);
@@ -161,27 +149,6 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 				.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue());
 
 		return polygonOutAttribute;
-	}
-
-	/*
-	 * coordinate translate
-	 */
-	private static Path2D getPathTranslated(Path2D path) {
-		PathIterator pathIt = path.getPathIterator(null);
-		double[] coordinate = new double[2];
-		Path2D outPath = new Path2D.Double();
-
-		pathIt.currentSegment(coordinate);
-		coordinate = CoordinateTranslate.Twd97ToWgs84(coordinate[0], coordinate[1]);
-		outPath.moveTo(coordinate[0], coordinate[1]);
-		pathIt.next();
-
-		for (; !pathIt.isDone(); pathIt.next()) {
-			pathIt.currentSegment(coordinate);
-			coordinate = CoordinateTranslate.Twd97ToWgs84(coordinate[0], coordinate[1]);
-			outPath.lineTo(coordinate[0], coordinate[1]);
-		}
-		return outPath;
 	}
 
 }

@@ -1,4 +1,4 @@
-package Statics.YearMax;
+package Catchments.GetYearMaxRainfall;
 
 import java.io.File;
 import java.io.IOException;

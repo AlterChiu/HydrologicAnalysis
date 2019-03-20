@@ -1,4 +1,4 @@
-package CreateEvent.threeHourVersion;
+package Catchments.threeHourVersion;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import CreateEvent.threeHourVersion.CatchmentCreateRainfall;
+import Catchments.threeHourVersion.CatchmentCreateRainfall;
 import GlobalProperty.GlobalProperty;
 import usualTool.AtFileReader;
 import usualTool.AtFileWriter;

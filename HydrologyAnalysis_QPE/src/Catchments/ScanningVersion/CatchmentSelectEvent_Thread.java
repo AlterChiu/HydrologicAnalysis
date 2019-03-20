@@ -1,12 +1,13 @@
-package CreateEvent.threeHourVersion;
+package Catchments.ScanningVersion;
 
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import usualTool.AtCommonMath;
 import usualTool.AtFileReader;
@@ -33,7 +34,7 @@ public class CatchmentSelectEvent_Thread extends Thread {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		}
-		
+
 		/*
 		 * output content
 		 */
@@ -43,61 +44,62 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		 * Read Content
 		 */
 		// for the time that event start
-		String eventStart = catchmentData[0][0];
-		List<Double> event = new ArrayList<>();
 
-		if (Double.parseDouble(eventStart) > CatchmentSelectEvent.startYear
-				&& Double.parseDouble(eventStart) < CatchmentSelectEvent.endYear) {
-			for (int line = 0; line < catchmentData.length - 1; line++) {
-				String rightTime = catchmentData[line][0];
-				String nextTime = catchmentData[line + 1][0];
+		/*
+		 * eventStart
+		 */
+		for (int startLine = 0; startLine < catchmentData.length - 1; startLine++) {
+			String startTime = catchmentData[startLine][0];
+
+			if (Double.parseDouble(startTime) >= CatchmentSelectEvent.startYear
+					&& Double.parseDouble(startTime) < CatchmentSelectEvent.endYear) {
 
 				/*
-				 * delatTime is the time delay between right time and next time
+				 * createMap
 				 */
-				long delayHour = 0;
+				Map<Integer, Double> eventValue = new TreeMap<Integer, Double>();
+				for (int delay = 0; delay < CatchmentSelectEvent.eventDelayTime; delay++) {
+					eventValue.put(delay, 0.);
+				}
+				eventValue.put(0, Double.parseDouble(catchmentData[startLine][1]));
+
+				/*
+				 * eventEnd
+				 */
+				for (int endLine = startLine + 1; endLine < catchmentData.length
+						- CatchmentSelectEvent.eventDelayTime; endLine++) {
+					String temptTime = catchmentData[endLine][0];
+					int skipHour = 999;
+					try {
+						skipHour = new BigDecimal((TimeTranslate.StringToLong(temptTime, "yyyyMMddHH")
+								- TimeTranslate.StringToLong(startTime, "yyyyMMddHH")) / 3600000.)
+										.setScale(1, BigDecimal.ROUND_HALF_UP).intValue();
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
+					if (skipHour < CatchmentSelectEvent.eventDelayTime) {
+						eventValue.put(skipHour, Double.parseDouble(catchmentData[endLine][1]));
+					} else {
+						break;
+					}
+				}
+
+				/*
+				 * compute event rainfall
+				 */
+				List<Double> temptList = new ArrayList<>();
+				for (int delay = 0; delay < CatchmentSelectEvent.eventDelayTime; delay++) {
+					temptList.add(eventValue.get(delay));
+				}
 				try {
-					delayHour = new BigDecimal((TimeTranslate.StringToLong(nextTime, "yyyyMMddHH")
-							- TimeTranslate.StringToLong(rightTime, "yyyyMMddHH")) / 3600000)
-									.setScale(0, BigDecimal.ROUND_HALF_UP).intValue();
+					eventList.add(getEventProperty(temptList, startTime,
+							TimeTranslate.addHour(startTime, "yyyyMMddHH", CatchmentSelectEvent.eventDelayTime - 1))
+									.parallelStream().toArray(String[]::new));
 				} catch (ParseException e) {
+					// TODO Auto-generated catch block
 					e.printStackTrace();
-				}
-
-				/*
-				 * add this data to list, then check for the next one
-				 */
-				event.add(Double.parseDouble(catchmentData[line][1]));
-
-				/*
-				 * check for time delay
-				 */
-				// if the delay is smaller than "maximumDelay" then record it to a new event
-				if (delayHour > CatchmentSelectEvent.maximumDelay) {
-
-					/*
-					 * if the event period is more than 3 hours, record it
-					 */
-					if (event.size() >= CatchmentSelectEvent.minmumEventPeriod) {
-
-						// record it
-						List<String> recordEvent = getEventProperty(event, eventStart, rightTime);
-						eventList.add(recordEvent.parallelStream().toArray(String[]::new));
-					}
-
-					/*
-					 * reset the event list
-					 */
-					eventStart = catchmentData[line][0];
-					event.clear();
-				}
-				/*
-				 * if delay hour is bigger than 1, interpolation it
-				 */
-				else {
-					for (int delay = 1; delay < delayHour; delay++) {
-						event.add(0.);
-					}
 				}
 			}
 		}
@@ -109,12 +111,11 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		// "maximumDelay_minmumEventPeriod_eventProperty.csv"
 		eventList.sort(Rainfall24H_Comparision.reversed());
 		eventList.add(0, new String[] { "24H-Rainfall delay", "startTime", "endTime", "totalLength", "meanRainfall",
-				"peakRainfall", "peakTime", "summaryRainfall", "rainfallData" });
+				"peakRainfall", "peakTime", "summaryRainfall" });
 		try {
 			new AtFileWriter(eventList.parallelStream().toArray(String[][]::new),
-					GlobalProperty.catchment_RainfallFolder + targetFolder + "\\" + CatchmentSelectEvent.maximumDelay
-							+ "_" + CatchmentSelectEvent.minmumEventPeriod + "_"
-							+ GlobalProperty.catchment_RainfallAnalysis_event).csvWriter();
+					GlobalProperty.catchment_RainfallFolder + targetFolder + "\\" + CatchmentSelectEvent.saveName)
+							.csvWriter();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -129,12 +130,11 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		 */
 		AtCommonMath eventStatics = new AtCommonMath(eventData);
 		double maxValue = eventStatics.getMax();
-		double summaryValue = eventStatics.getSum();
+		double summaryValue = eventStatics.getSum(2);
 
 		// setting event property
 		List<String> propertyList = new ArrayList<String>();
-		propertyList.add(new BigDecimal(summaryValue * Math.pow(24./eventData.size(), 1./3))
-				.setScale(3, BigDecimal.ROUND_HALF_UP).toString());
+		propertyList.add(summaryValue + "");
 		propertyList.add(eventStart);
 		propertyList.add(eventEnd);
 		propertyList.add(String.format("%03d", eventData.size()));
@@ -142,8 +142,6 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		propertyList.add(maxValue + "");
 		propertyList.add(eventData.indexOf(maxValue) + "");
 		propertyList.add(new BigDecimal(summaryValue).setScale(2, BigDecimal.ROUND_HALF_UP).toString());
-
-		eventData.forEach(e -> propertyList.add(String.valueOf(e)));
 		return propertyList;
 	}
 

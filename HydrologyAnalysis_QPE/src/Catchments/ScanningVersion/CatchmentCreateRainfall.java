@@ -1,4 +1,4 @@
-package Statics.YearMax;
+package Catchments.ScanningVersion;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.util.Map;
 
 import GlobalProperty.GlobalProperty;
 
-public class SelectYearMax extends GlobalProperty {
+public class CatchmentCreateRainfall extends GlobalProperty {
 
 	/*
 	 * select the event from each catchment by given time delay
@@ -20,23 +20,22 @@ public class SelectYearMax extends GlobalProperty {
 	public static String fileAdd = catchment_RainfallFolder;
 	public static String[] fileList = null;
 
+	public static double minRainfallValue = 0.1;
 	public static int eventLength = 0;
 	public static int eventDelayArray[] = returnPeriod_delayTime;
 
 	public static int eventDelayTime = 0;
-	public static int startYear = GlobalProperty.startYear;
-	public static int endYear = GlobalProperty.endYear;
-	
-	public static String saveName = "";
-	public static String rainfallName = "\\" + SelectYearMax.eventDelayTime + "_eventDelay_Rainfall.csv";
+	public static String saveName = "\\" + CatchmentCreateRainfall.eventDelayTime
+			+ "_eventDelay_Distribution_SelectAllEvent.csv";
+	public static String rainfallName = "\\" + CatchmentCreateRainfall.eventDelayTime + "_eventDelay_Rainfall.csv";
 
 	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub
 
 		for (int eventDelay : eventDelayArray) {
 			eventDelayTime = eventDelay;
-			saveName = "\\Rainfall" + String.format("%03d", SelectYearMax.eventDelayTime) + "_YearMax.csv";
-			rainfallName = "\\" + SelectYearMax.eventDelayTime + "_eventDelay_Rainfall.csv";
+			saveName = "\\" + eventDelay + "_eventDelay_Distribution.csv";
+			rainfallName = "\\" + eventDelay + "_eventDelay_Rainfall.csv";
 
 			int fileCount = 0;
 
@@ -99,7 +98,7 @@ public class SelectYearMax extends GlobalProperty {
 	}
 
 	private static Thread initialThread(String targetCatchment, int fileCount) {
-		Thread temptThread = new Thread(new SelectYearMax_Thread(targetCatchment));
+		Thread temptThread = new Thread(new CatchmentCreateRainfall_Thread(targetCatchment));
 		temptThread.setName(fileCount + "");
 		return temptThread;
 	}

@@ -1,4 +1,4 @@
-package Statics.YearMax;
+package Catchments.ScanningVersion;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,14 +8,14 @@ import java.util.List;
 import asciiFunction.XYZToAscii;
 import usualTool.AtFileReader;
 
-public class SelectYearMax_ToAsc {
+public class CatchmentCreateRainfall_ToAsc {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		int delayArray[] = GlobalProperty.GlobalProperty.returnPeriod_delayTime;
 
 		for (int delay : delayArray) {
-			String saveAdd = "H:\\RainfallData\\statics\\年最大降雨量\\" + delay + "\\";
+			String saveAdd = "H:\\RainfallData\\createRainfall\\掃描式事件篩選方法\\取年最大\\" + delay + "\\";
 			String[][] distributionConternt = null;
 			for (String fileName : new File(saveAdd).list()) {
 				if (fileName.contains(".csv")) {
