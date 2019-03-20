@@ -73,10 +73,7 @@ public class ReadDataBaseData {
 	public static final Connection getDataBaseConnection() throws ClassNotFoundException {
 		JDBCConnectionStatement connectionStatement = new JDBCConnectionStatement();
 		connectionStatement.setDriver(BasicSetting.SQLSERVER_DRIVER);
-		connectionStatement.setIP("jdbc:mysql://140.124.61.40:15533");
-		connectionStatement.setUser("root");
-		connectionStatement.setPass("hk4xu;6g4");
-
+	
 		return connectionStatement.getConnection();
 	}
 }
