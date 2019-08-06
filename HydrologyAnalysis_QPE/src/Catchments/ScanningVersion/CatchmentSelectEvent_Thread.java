@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -28,8 +27,8 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		 */
 		String catchmentData[][] = null;
 		try {
-			catchmentData = new AtFileReader(GlobalProperty.catchment_RainfallFolder + targetFolder
-					+ GlobalProperty.catchment_RainfallAnalysis_total).getCsv();
+			catchmentData = new AtFileReader(
+					GlobalProperty.catchment_RainfallFolder + targetFolder + CatchmentSelectEvent.inputFile).getCsv();
 		} catch (IOException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
@@ -51,11 +50,11 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		for (int startLine = 0; startLine < catchmentData.length - 1; startLine++) {
 			String startTime = catchmentData[startLine][0];
 
-			if (Double.parseDouble(startTime) >= CatchmentSelectEvent.startYear
-					&& Double.parseDouble(startTime) < CatchmentSelectEvent.endYear) {
+			if (Integer.parseInt(startTime.substring(0, 4)) >= CatchmentSelectEvent.startYear
+					&& Integer.parseInt(startTime.substring(0, 4)) <= CatchmentSelectEvent.endYear) {
 
 				/*
-				 * createMap
+				 * create event value map
 				 */
 				Map<Integer, Double> eventValue = new TreeMap<Integer, Double>();
 				for (int delay = 0; delay < CatchmentSelectEvent.eventDelayTime; delay++) {
@@ -66,8 +65,7 @@ public class CatchmentSelectEvent_Thread extends Thread {
 				/*
 				 * eventEnd
 				 */
-				for (int endLine = startLine + 1; endLine < catchmentData.length
-						- CatchmentSelectEvent.eventDelayTime; endLine++) {
+				for (int endLine = startLine + 1; endLine < catchmentData.length; endLine++) {
 					String temptTime = catchmentData[endLine][0];
 					int skipHour = 999;
 					try {
@@ -109,9 +107,8 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		 */
 		// output the event selected event, file name will be
 		// "maximumDelay_minmumEventPeriod_eventProperty.csv"
-		eventList.sort(Rainfall24H_Comparision.reversed());
-		eventList.add(0, new String[] { "24H-Rainfall delay", "startTime", "endTime", "totalLength", "meanRainfall",
-				"peakRainfall", "peakTime", "summaryRainfall" });
+		eventList.add(0,
+				new String[] { "EventSummary", "startTime", "endTime", "meanRainfall", "peakRainfall", "peakTime" });
 		try {
 			new AtFileWriter(eventList.parallelStream().toArray(String[][]::new),
 					GlobalProperty.catchment_RainfallFolder + targetFolder + "\\" + CatchmentSelectEvent.saveName)
@@ -137,27 +134,10 @@ public class CatchmentSelectEvent_Thread extends Thread {
 		propertyList.add(summaryValue + "");
 		propertyList.add(eventStart);
 		propertyList.add(eventEnd);
-		propertyList.add(String.format("%03d", eventData.size()));
 		propertyList.add(new BigDecimal(eventStatics.getMean()).setScale(2, BigDecimal.ROUND_HALF_UP).toString());
 		propertyList.add(maxValue + "");
 		propertyList.add(eventData.indexOf(maxValue) + "");
-		propertyList.add(new BigDecimal(summaryValue).setScale(2, BigDecimal.ROUND_HALF_UP).toString());
 		return propertyList;
 	}
-
-	/*
-	 * Sorted function
-	 */
-	// <===============================================>
-
-	/*
-	 * 24H Rainfall
-	 */
-	private Comparator<String[]> Rainfall24H_Comparision = (eventData1, eventData2) -> {
-		Double eventRainfall1 = Double.parseDouble(eventData1[0]);
-		Double eventRainfall2 = Double.parseDouble(eventData2[0]);
-
-		return eventRainfall1.compareTo(eventRainfall2);
-	};
 
 }

@@ -20,13 +20,12 @@ public class CatchmentSelectEvent extends GlobalProperty {
 	public static String fileAdd = catchment_RainfallFolder;
 	public static String[] fileList = null;
 	public static int eventDelayTime = 1;
+	public static String inputFile = GlobalProperty.catchment_RainfallAnalysis_total;
 	public static String saveName = "\\" + CatchmentSelectEvent.eventDelayTime + "_eventDelay_Rainfall.csv";
-
-	public static double maximumRainfall = 250;
 
 	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub
-		int delayList[] = new int[] { 1, 3, 6, 12, 18, 24, 48, 72 };
+		int delayList[] = new int[] { 48 };
 		for (int delay : delayList) {
 			eventDelayTime = delay;
 			saveName = "\\" + CatchmentSelectEvent.eventDelayTime + "_eventDelay_Rainfall.csv";

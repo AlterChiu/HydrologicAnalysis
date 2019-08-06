@@ -1,4 +1,4 @@
-package Catchments.GetYearMaxRainfall;
+package Catchments.threeHourVersion;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -13,10 +13,10 @@ import usualTool.AtFileWriter;
 import usualTool.TimeTranslate;
 import GlobalProperty.GlobalProperty;
 
-public class SelectYearMax_Thread extends Thread {
+public class CatchmentSelectYearMaxEvent_Thread extends Thread {
 	private String targetFolder = "";
 
-	public SelectYearMax_Thread(String targetFolder) {
+	public CatchmentSelectYearMaxEvent_Thread(String targetFolder) {
 		this.targetFolder = targetFolder;
 	}
 
@@ -32,7 +32,8 @@ public class SelectYearMax_Thread extends Thread {
 		String catchmentData[][] = null;
 		try {
 			catchmentData = new AtFileReader(
-					GlobalProperty.catchment_RainfallFolder + targetFolder + SelectYearMax.rainfallName).getCsv(1, 0);
+					GlobalProperty.catchment_RainfallFolder + targetFolder + CatchmentSelectYearMaxEvent.rainfallName)
+							.getCsv(1, 0);
 		} catch (IOException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
@@ -64,7 +65,8 @@ public class SelectYearMax_Thread extends Thread {
 		}
 		try {
 			new AtFileWriter(outList.parallelStream().toArray(String[][]::new),
-					GlobalProperty.catchment_RainfallFolder + targetFolder + SelectYearMax.saveName).csvWriter();
+					GlobalProperty.catchment_RainfallFolder + targetFolder + CatchmentSelectYearMaxEvent.saveName)
+							.csvWriter();
 		} catch (IOException e) {
 		}
 

@@ -112,8 +112,8 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 			List<Geometry> geoList, int eventDelay, String distribution) {
 		// output the shpFile
 		SpatialWriter shpWriter = new SpatialWriter();
-		shpWriter.setAttributeTable(outAtt);
-		shpWriter.setField(outAttType);
+		shpWriter.setAttribute(outAtt);
+		shpWriter.setFieldType(outAttType);
 		shpWriter.setGeoList(geoList);
 		shpWriter.setCoordinateSystem(SpatialWriter.TWD97_121);
 		shpWriter.saveAsShp(shpFileSaveAdd + String.format("%03d", eventDelay) + "_Year" + returnPeriod + "_"

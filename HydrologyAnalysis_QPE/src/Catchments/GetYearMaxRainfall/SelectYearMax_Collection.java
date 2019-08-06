@@ -13,12 +13,13 @@ import usualTool.AtFileWriter;
 
 public class SelectYearMax_Collection extends GlobalProperty {
 	public static int temptDelayTime = 0;
-	private static int eventDelayArray[] = GlobalProperty.returnPeriod_delayTime;
+//	private static int eventDelayArray[] = GlobalProperty.returnPeriod_delayTime;
+	private static int eventDelayArray[] = new int[] { 24, 48 };
 
 	public static int startYear = GlobalProperty.startYear;
 	public static int endYear = GlobalProperty.endYear;
 
-	public static String yearMaxRainfallFile = SelectYearMax.saveName;
+	public static String targetFolder = catchment_RainfallFolder;
 	public static String saveName = "";
 
 	/*
@@ -32,7 +33,7 @@ public class SelectYearMax_Collection extends GlobalProperty {
 			saveName = "\\Rainfall" + String.format("%03d", eventDelay) + "_YearMax.csv";
 
 			List<String> catchmentsList = new ArrayList<>(
-					Arrays.asList(SelectYearMax.fileList = new File(SelectYearMax.fileAdd).list()));
+					Arrays.asList(new File(targetFolder).list()));
 
 			/*
 			 * out content Title

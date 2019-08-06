@@ -56,9 +56,9 @@ public class YearMaxStatics_MeanStd {
 		}
 
 		SpatialWriter shpWriter = new SpatialWriter();
-		shpWriter.setField(outAttrType);
+		shpWriter.setFieldType(outAttrType);
 		shpWriter.setGeoList(outGeoList);
-		shpWriter.setAttributeTable(outAttrTable);
+		shpWriter.setAttribute(outAttrTable);
 		shpWriter.saveAsShp(saveAdd + "_Statics.shp");
 	}
 

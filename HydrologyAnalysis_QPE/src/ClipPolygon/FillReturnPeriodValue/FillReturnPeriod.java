@@ -65,8 +65,8 @@ public class FillReturnPeriod {
 
 		// output the shape file
 		SpatialWriter spWriter = new SpatialWriter();
-		spWriter.setField(attributeType);
-		spWriter.setAttributeTable(attribute);
+		spWriter.setFieldType(attributeType);
+		spWriter.setAttribute(attribute);
 		spWriter.setGeoList(geoList);
 		spWriter.saveAsShp(polygonSaveAdd);
 	}

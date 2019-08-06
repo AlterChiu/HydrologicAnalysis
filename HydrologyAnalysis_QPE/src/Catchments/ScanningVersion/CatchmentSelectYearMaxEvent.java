@@ -1,4 +1,4 @@
-package Catchments.GetYearMaxRainfall;
+package Catchments.ScanningVersion;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,37 +11,37 @@ import java.util.Map;
 
 import GlobalProperty.GlobalProperty;
 
-public class SelectYearMax extends GlobalProperty {
+public class CatchmentSelectYearMaxEvent extends GlobalProperty {
 
 	/*
 	 * select the event from each catchment by given time delay
 	 */
 	private static int threadNum = 4;
-	public static String fileAdd = catchment_RainfallFolder;
-	public static String[] fileList = null;
+	public static String targetFolder = catchment_RainfallFolder;
 
 	public static int eventLength = 0;
-	public static int eventDelayArray[] = returnPeriod_delayTime;
+	public static int eventDelayArray[] = new int[] { 24, 48 };
 
 	public static int eventDelayTime = 0;
 	public static int startYear = GlobalProperty.startYear;
 	public static int endYear = GlobalProperty.endYear;
-	
+
 	public static String saveName = "";
-	public static String rainfallName = "\\" + SelectYearMax.eventDelayTime + "_eventDelay_Rainfall.csv";
+	public static String inputFile = "\\" + CatchmentSelectYearMaxEvent.eventDelayTime + "_eventDelay_Rainfall.csv";
 
 	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub
 
 		for (int eventDelay : eventDelayArray) {
 			eventDelayTime = eventDelay;
-			saveName = "\\Rainfall" + String.format("%03d", SelectYearMax.eventDelayTime) + "_YearMax.csv";
-			rainfallName = "\\" + SelectYearMax.eventDelayTime + "_eventDelay_Rainfall.csv";
+			saveName = "\\Rainfall" + String.format("%03d", CatchmentSelectYearMaxEvent.eventDelayTime)
+					+ "_YearMax.csv";
+			inputFile = "\\" + CatchmentSelectYearMaxEvent.eventDelayTime + "_eventDelay_Rainfall.csv";
 
 			int fileCount = 0;
 
 			// the fileList here is the name of catchments
-			List<String> catchmentsList = new ArrayList<>(Arrays.asList(fileList = new File(fileAdd).list()));
+			List<String> catchmentsList = new ArrayList<>(Arrays.asList(new File(targetFolder).list()));
 			List<String> lostData = loseData();
 			int fileLength = catchmentsList.size();
 
@@ -99,7 +99,7 @@ public class SelectYearMax extends GlobalProperty {
 	}
 
 	private static Thread initialThread(String targetCatchment, int fileCount) {
-		Thread temptThread = new Thread(new SelectYearMax_Thread(targetCatchment));
+		Thread temptThread = new Thread(new CatchmentSelectYearMaxEvent_Thread(targetCatchment));
 		temptThread.setName(fileCount + "");
 		return temptThread;
 	}

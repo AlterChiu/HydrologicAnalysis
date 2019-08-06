@@ -13,9 +13,10 @@ import usualTool.AtFileWriter;
 
 public class CatchmentCreateRainfall_Collection extends GlobalProperty {
 	public static int temptDelayTime = 0;
-	public static String distributionName = CatchmentCreateRainfall.saveName;
+	public static String inputFile = "\\Rainfall_" + temptDelayTime + "YearMax.csv";
 	public static String saveName = "\\" + temptDelayTime + "_eventDelay_Distribution.csv";
-	private static int eventDelayArray[] = GlobalProperty.returnPeriod_delayTime;
+//	private static int eventDelayArray[] = GlobalProperty.returnPeriod_delayTime;
+	private static int eventDelayArray[] = new int[] { 24, 48 };
 
 	/*
 	 * select the event from each catchment by given time delay
@@ -25,6 +26,7 @@ public class CatchmentCreateRainfall_Collection extends GlobalProperty {
 
 		for (int eventDelay : eventDelayArray) {
 			temptDelayTime = eventDelay;
+			inputFile = "\\Rainfall_" + temptDelayTime + "YearMax.csv";
 			saveName = "\\" + eventDelay + "_eventDelay_Distribution.csv";
 
 			List<String> catchmentsList = new ArrayList<>(

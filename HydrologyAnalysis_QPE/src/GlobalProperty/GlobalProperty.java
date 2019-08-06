@@ -203,6 +203,9 @@ public class GlobalProperty {
 	 * @ 1. statics for the result that come from Comparision.YearMax.Statics
 	 */
 
+	/*
+	 * global variable
+	 */
 	static public String rainfallDataFolder = workSpace + "RainfallData\\";
 	static public String catchment_RainfallFolder = rainfallDataFolder + "catchment\\";
 	static public String catchment_RainfallFolder_Day = "\\day\\";

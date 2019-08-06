@@ -113,8 +113,8 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 			List<Geometry> geoList, int eventDelay, int year) {
 		// output the shpFile
 		SpatialWriter shpWriter = new SpatialWriter();
-		shpWriter.setAttributeTable(outAtt);
-		shpWriter.setField(outAttType);
+		shpWriter.setAttribute(outAtt);
+		shpWriter.setFieldType(outAttType);
 		shpWriter.setGeoList(geoList);
 		shpWriter.setCoordinateSystem(SpatialWriter.TWD97_121);
 		shpWriter.saveAsShp(shpFileSaveAdd + String.format("%03d", eventDelay) + "_" + year + "year.shp");

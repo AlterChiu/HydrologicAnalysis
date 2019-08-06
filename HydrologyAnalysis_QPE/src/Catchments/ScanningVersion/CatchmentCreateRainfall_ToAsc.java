@@ -12,7 +12,7 @@ public class CatchmentCreateRainfall_ToAsc {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		int delayArray[] = GlobalProperty.GlobalProperty.returnPeriod_delayTime;
+		int delayArray[] = new int[] { 24, 48 };
 
 		for (int delay : delayArray) {
 			String saveAdd = "H:\\RainfallData\\createRainfall\\掃描式事件篩選方法\\取年最大\\" + delay + "\\";

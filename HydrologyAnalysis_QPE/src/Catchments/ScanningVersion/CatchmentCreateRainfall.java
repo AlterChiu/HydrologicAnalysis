@@ -21,13 +21,12 @@ public class CatchmentCreateRainfall extends GlobalProperty {
 	public static String[] fileList = null;
 
 	public static double minRainfallValue = 0.1;
-	public static int eventLength = 0;
-	public static int eventDelayArray[] = returnPeriod_delayTime;
+//	public static int eventLength = 0;
+	public static int eventDelayArray[] = new int[] { 24, 48 };
 
 	public static int eventDelayTime = 0;
-	public static String saveName = "\\" + CatchmentCreateRainfall.eventDelayTime
-			+ "_eventDelay_Distribution_SelectAllEvent.csv";
-	public static String rainfallName = "\\" + CatchmentCreateRainfall.eventDelayTime + "_eventDelay_Rainfall.csv";
+	public static String saveName = "24_eventDelay_Distribution.csv";
+	public static String inputFile = "_eventDelay_Rainfall.csv";
 
 	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub
@@ -35,7 +34,7 @@ public class CatchmentCreateRainfall extends GlobalProperty {
 		for (int eventDelay : eventDelayArray) {
 			eventDelayTime = eventDelay;
 			saveName = "\\" + eventDelay + "_eventDelay_Distribution.csv";
-			rainfallName = "\\" + eventDelay + "_eventDelay_Rainfall.csv";
+			inputFile = "\\Rainfall" + String.format("%03d", eventDelay) + "_YearMax.csv";
 
 			int fileCount = 0;
 
