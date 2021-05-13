@@ -1,7 +1,7 @@
 package FileMover;
 
 import GlobalProperty.GlobalProperty;
-import usualTool.FileFunction;
+import usualTool.AtFileFunction;
 
 public class CatchmentFileMover_Thread extends Thread {
 	private String targetCatchment = "";
@@ -14,10 +14,9 @@ public class CatchmentFileMover_Thread extends Thread {
 		String readFolder = GlobalProperty.catchment_RainfallFolder + targetCatchment;
 		String saveAdd = "E:\\temptFolder\\" + targetCatchment;
 
-		FileFunction ff = new FileFunction();
-		ff.newFolder(saveAdd);
+		AtFileFunction.createFolder(saveAdd);
 		for (String fileName : getFileList()) {
-			ff.copyFile(readFolder + "\\" + fileName, saveAdd + "\\" + fileName);
+			AtFileFunction.copyFile(readFolder + "\\" + fileName, saveAdd + "\\" + fileName);
 		}
 	}
 

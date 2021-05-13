@@ -5,7 +5,6 @@
 	<groupId>HydrologyAnalysis_QPE</groupId>
 	<artifactId>HydrologyAnalysis_QPE</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -19,11 +18,87 @@
 		<commonMath.version>3.6.1</commonMath.version>
 		<jdistlib.version>0.4.5</jdistlib.version>
 		<commonLang.version>3.8.1</commonLang.version>
-		<log4j.version>1.2.17</log4j.version>
+		<nio.version>1.0.3</nio.version>
+		<commonIO.version>2.8.0</commonIO.version>
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- ++++++++++++ NETCDF +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<string.version>0.4.0</string.version>
+		<jodatime.version>2.9.9</jodatime.version>
+		<netcdf.version>4.5.5</netcdf.version>
+		<guava.version>23.4-jre</guava.version>
+
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- ++++++++ HttpClient & XML +++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<dom4j.version>2.1.1</dom4j.version>
+		<jsoup.version>1.13.1</jsoup.version>
+		<jaxen.version>1.1.6</jaxen.version>
+		<HttpClient.version>4.5.13</HttpClient.version>
+		<HttpComponent.version>4.1.4</HttpComponent.version>
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- ++++++++++++++ POI +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<commonCollection.version>4.4</commonCollection.version>
+		<poi.version>3.17</poi.version>
+		<poiOoxml.version>3.17</poiOoxml.version>
+		<poiOoxmlSchemas.version>3.17</poiOoxmlSchemas.version>
+		<poiScratchpad.version>3.17</poiScratchpad.version>
+		<staxApi.version>1.0-2</staxApi.version>
+		<xmlBean.version>1.5.5</xmlBean.version>
+
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!--++++++++++++ JDBC +++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<jdbc.sqlite>3.34.0</jdbc.sqlite>
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!--++++++++++++ GeoTool +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<gt.wms.version>23.1</gt.wms.version>
+
+
+
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>unidata-all</id>
+			<name>Unidata All</name>
+			<url>https://artifacts.unidata.ucar.edu/repository/unidata-all/</url>
+		</repository>
+
+		<!-- osg geotools repository -->
+		<repository>
+			<id>osgeo</id>
+			<name>OSGeo Release Repository</name>
+			<url>https://repo.osgeo.org/repository/release/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>osgeo-snapshot</id>
+			<name>OSGeo Snapshot Repository</name>
+			<url>https://repo.osgeo.org/repository/snapshot/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+	</repositories>
 
 	<dependencies>
+
 		<!-- +++++++++++++++++++++++++++++++ -->
 		<!--++++++++++++ AtCommon +++++++++++ -->
 		<!-- +++++++++++++++++++++++++++++++ -->
@@ -58,14 +133,150 @@
 			<version>${commonLang.version}</version>
 		</dependency>
 
-		<!-- log for java -->
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j.version}</version>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commonIO.version}</version>
 		</dependency>
-	</dependencies>
 
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- ++++++++++++++ HttpClient & XML +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- dom4j -->
+		<dependency>
+			<groupId>org.dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>${dom4j.version}</version>
+		</dependency>
+
+		<!-- jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>${jsoup.version}</version>
+		</dependency>
+
+
+		<!-- jaxen -->
+		<dependency>
+			<groupId>jaxen</groupId>
+			<artifactId>jaxen</artifactId>
+			<version>${jaxen.version}</version>
+		</dependency>
+
+		<!-- HttpClient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${HttpClient.version}</version>
+		</dependency>
+
+		<!-- HttpComponent -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpasyncclient</artifactId>
+			<version>${HttpComponent.version}</version>
+		</dependency>
+
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- ++++++++++++++ POI +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- apache-collection -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>${commonCollection.version}</version>
+		</dependency>
+
+		<!-- POI -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+
+		<!-- POI-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poiOoxml.version}</version>
+		</dependency>
+
+		<!-- poi-ooxml-schemas -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>${poiOoxmlSchemas.version}</version>
+		</dependency>
+
+		<!-- poi-scratchpad -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>${poiScratchpad.version}</version>
+		</dependency>
+
+		<!-- stax-api -->
+		<dependency>
+			<groupId>javax.xml.stream</groupId>
+			<artifactId>stax-api</artifactId>
+			<version>${staxApi.version}</version>
+		</dependency>
+
+		<!-- xmlbean -->
+		<dependency>
+			<groupId>com.github.cloudecho</groupId>
+			<artifactId>xmlbean</artifactId>
+			<version>${xmlBean.version}</version>
+		</dependency>
+
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- ++++++++++++ NETCDF +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+
+		<!-- NetCDF -->
+		<dependency>
+			<groupId>edu.ucar</groupId>
+			<artifactId>netcdf4</artifactId>
+			<version>${netcdf.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>joda-time</groupId>
+					<artifactId>joda-time</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.google.guava</groupId>
+					<artifactId>guava</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!--++++++++++++ JDBC +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+		<dependency>
+			<groupId>org.xerial</groupId>
+			<artifactId>sqlite-jdbc</artifactId>
+			<version>${jdbc.sqlite}</version>
+		</dependency>
+
+
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<!--++++++++++++ GeoTool +++++++++++++ -->
+		<!-- +++++++++++++++++++++++++++++++ -->
+		<dependency>
+			<groupId>org.geoserver</groupId>
+			<artifactId>gs-wms</artifactId>
+			<version>2.17.1</version>
+		</dependency>
+
+
+	</dependencies>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>

@@ -45,7 +45,7 @@ public class CatchmentSelectYearMaxEvent_Thread extends Thread {
 		for (String temptLine[] : catchmentData) {
 			int temptYear = GlobalProperty.startYear;
 			try {
-				temptYear = Integer.parseInt(TimeTranslate.StringGetSelected(temptLine[1], "yyyyMMddHH", "yyyy"));
+				temptYear = Integer.parseInt(TimeTranslate.getDateStringTranslte(temptLine[1], "yyyyMMddHH", "yyyy"));
 			} catch (NumberFormatException | ParseException e) {
 			}
 

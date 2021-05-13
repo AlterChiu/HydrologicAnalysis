@@ -33,7 +33,7 @@ public class CatchmentSelectEvent_Thread extends Thread {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		}
-		
+
 		/*
 		 * output content
 		 */
@@ -57,8 +57,8 @@ public class CatchmentSelectEvent_Thread extends Thread {
 				 */
 				long delayHour = 0;
 				try {
-					delayHour = new BigDecimal((TimeTranslate.StringToLong(nextTime, "yyyyMMddHH")
-							- TimeTranslate.StringToLong(rightTime, "yyyyMMddHH")) / 3600000)
+					delayHour = new BigDecimal((TimeTranslate.getDateLong(nextTime, "yyyyMMddHH")
+							- TimeTranslate.getDateLong(rightTime, "yyyyMMddHH")) / 3600000)
 									.setScale(0, BigDecimal.ROUND_HALF_UP).intValue();
 				} catch (ParseException e) {
 					e.printStackTrace();
@@ -133,7 +133,7 @@ public class CatchmentSelectEvent_Thread extends Thread {
 
 		// setting event property
 		List<String> propertyList = new ArrayList<String>();
-		propertyList.add(new BigDecimal(summaryValue * Math.pow(24./eventData.size(), 1./3))
+		propertyList.add(new BigDecimal(summaryValue * Math.pow(24. / eventData.size(), 1. / 3))
 				.setScale(3, BigDecimal.ROUND_HALF_UP).toString());
 		propertyList.add(eventStart);
 		propertyList.add(eventEnd);

@@ -1,5 +1,6 @@
 package Catchments.GetYearMaxRainfall;
 
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -17,7 +18,7 @@ public class YearMaxStatics_MeanStd {
 
 	private static String saveAdd = "H:\\RainfallData\\Polygon\\MaxRainfall024_";
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws UnsupportedEncodingException {
 		// TODO Auto-generated method stub
 
 		List<SpatialReader> shpFileList = new ArrayList<SpatialReader>();
@@ -39,8 +40,8 @@ public class YearMaxStatics_MeanStd {
 			try {
 
 				for (int year = 0; year < shpFileList.size(); year++) {
-					Map<String, String> temptFeature = shpFileList.get(year).getAttributeTable().get(index);
-					valueList.add(Double.parseDouble(temptFeature.get("dif_value")));
+					Map<String, Object> temptFeature = shpFileList.get(year).getAttributeTable().get(index);
+					valueList.add((double) temptFeature.get("dif_value"));
 				}
 
 				AtCommonMath math = new AtCommonMath(valueList);
@@ -57,8 +58,9 @@ public class YearMaxStatics_MeanStd {
 
 		SpatialWriter shpWriter = new SpatialWriter();
 		shpWriter.setFieldType(outAttrType);
-		shpWriter.setGeoList(outGeoList);
-		shpWriter.setAttribute(outAttrTable);
+		for (int index = 0; index < outGeoList.size(); index++) {
+			shpWriter.addFeature(outGeoList.get(index), outAttrTable.get(index));
+		}
 		shpWriter.saveAsShp(saveAdd + "_Statics.shp");
 	}
 

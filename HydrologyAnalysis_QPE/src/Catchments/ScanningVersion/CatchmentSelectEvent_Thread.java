@@ -69,8 +69,8 @@ public class CatchmentSelectEvent_Thread extends Thread {
 					String temptTime = catchmentData[endLine][0];
 					int skipHour = 999;
 					try {
-						skipHour = new BigDecimal((TimeTranslate.StringToLong(temptTime, "yyyyMMddHH")
-								- TimeTranslate.StringToLong(startTime, "yyyyMMddHH")) / 3600000.)
+						skipHour = new BigDecimal((TimeTranslate.getDateLong(temptTime, "yyyyMMddHH")
+								- TimeTranslate.getDateLong(startTime, "yyyyMMddHH")) / 3600000.)
 										.setScale(1, BigDecimal.ROUND_HALF_UP).intValue();
 					} catch (ParseException e) {
 						// TODO Auto-generated catch block

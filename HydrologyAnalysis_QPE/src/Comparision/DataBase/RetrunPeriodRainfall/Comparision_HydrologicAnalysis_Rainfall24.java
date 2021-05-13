@@ -53,7 +53,7 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 		 */
 		SpatialReader shpFile = new SpatialReader(shpFileAdd);
 		List<Geometry> geoList = shpFile.getGeometryList();
-		List<Map<String, String>> attList = shpFile.getAttributeTable();
+		List<Map<String, Object>> attList = shpFile.getAttributeTable();
 		System.out.println("read shpFile successed");
 
 		// for each eventDelay
@@ -72,7 +72,7 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 					Map<String, Object> polygonOutAttribute = new TreeMap<>();
 
 					// set output shpFile property
-					String polygonID = attList.get(index).get("ID");
+					String polygonID = (String) attList.get(index).get("ID");
 					polygonOutAttribute.put("ID", polygonID);
 					System.out.print(index + "\t" + polygonID);
 
@@ -112,9 +112,10 @@ public class Comparision_HydrologicAnalysis_Rainfall24 {
 			List<Geometry> geoList, int eventDelay, String distribution) {
 		// output the shpFile
 		SpatialWriter shpWriter = new SpatialWriter();
-		shpWriter.setAttribute(outAtt);
 		shpWriter.setFieldType(outAttType);
-		shpWriter.setGeoList(geoList);
+		for (int index = 0; index < geoList.size(); index++) {
+			shpWriter.addFeature(geoList.get(index), outAtt.get(index));
+		}
 		shpWriter.setCoordinateSystem(SpatialWriter.TWD97_121);
 		shpWriter.saveAsShp(shpFileSaveAdd + String.format("%03d", eventDelay) + "_Year" + returnPeriod + "_"
 				+ distribution + ".shp");

@@ -29,7 +29,7 @@ public class FillReturnPeriod {
 
 		// shape file function
 		SpatialReader shpFile = new SpatialReader(polygonAdd);
-		List<Map<String, String>> shpAttribute = shpFile.getAttributeTable();
+		List<Map<String, Object>> shpAttribute = shpFile.getAttributeTable();
 		/* get the polygon list */
 		List<Geometry> geoList = shpFile.getGeometryList();
 		/* set the attribute table */
@@ -66,8 +66,9 @@ public class FillReturnPeriod {
 		// output the shape file
 		SpatialWriter spWriter = new SpatialWriter();
 		spWriter.setFieldType(attributeType);
-		spWriter.setAttribute(attribute);
-		spWriter.setGeoList(geoList);
+		for (int index = 0; index < geoList.size(); index++) {
+			spWriter.addFeature(geoList.get(index), attribute.get(index));
+		}
 		spWriter.saveAsShp(polygonSaveAdd);
 	}
 }

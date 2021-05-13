@@ -55,7 +55,7 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 		 */
 		SpatialReader shpFile = new SpatialReader(shpFileAdd);
 		List<Geometry> geoList = shpFile.getGeometryList();
-		List<Map<String, String>> attList = shpFile.getAttributeTable();
+		List<Map<String, Object>> attList = shpFile.getAttributeTable();
 		System.out.println("read shpFile successed");
 
 		// for each eventDelay
@@ -74,7 +74,7 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 					Map<String, Object> polygonOutAttribute = new TreeMap<>();
 
 					// set output shpFile property
-					String polygonID = attList.get(index).get("ID");
+					String polygonID = (String) attList.get(index).get("ID");
 					polygonOutAttribute.put("ID", polygonID);
 					System.out.print(index + "\t" + polygonID);
 
@@ -113,9 +113,10 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 			List<Geometry> geoList, int eventDelay, int year) {
 		// output the shpFile
 		SpatialWriter shpWriter = new SpatialWriter();
-		shpWriter.setAttribute(outAtt);
 		shpWriter.setFieldType(outAttType);
-		shpWriter.setGeoList(geoList);
+		for (int index = 0; index < geoList.size(); index++) {
+			shpWriter.addFeature(geoList.get(index), outAtt.get(index));
+		}
 		shpWriter.setCoordinateSystem(SpatialWriter.TWD97_121);
 		shpWriter.saveAsShp(shpFileSaveAdd + String.format("%03d", eventDelay) + "_" + year + "year.shp");
 		System.out.println("Create shpFile successed");
@@ -130,7 +131,7 @@ public class Comparision_HydrologicAnalysis_YearMaxRainfall {
 		// read asciiFile and asciiValue;
 		AsciiBasicControl ascii = new AsciiBasicControl(folder_QPE_Analysis + "\\" + eventDelay + "\\" + year + ".asc");
 		String temptAsciiValue = ascii
-				.getValue(GdalGlobal.geometryTranlster(temptPolygon, GdalGlobal.TWD97_121, GdalGlobal.WGS84));
+				.getValue(GdalGlobal.GeometryTranslator(temptPolygon, GdalGlobal.TWD97_121, GdalGlobal.WGS84));
 		double asciiMeanValue = Double.parseDouble(temptAsciiValue);
 		if (temptAsciiValue.equals(ascii.getNullValue())) {
 			polygonOutAttribute.put("asc_value", 0.);
