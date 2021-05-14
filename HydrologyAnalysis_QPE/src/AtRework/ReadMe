@@ -1,0 +1,58 @@
+
+*CRITICAL - FOLDER STRUCTURE*
+//----------------------------------------------------------------
+
+root
+ |
+ |---RainfallData(folder)
+ |			|
+ |			|--------folder for each grid (folderName： wgs84_X + "_" + wgs84_Y , for example 120.05_25.10)
+ |									|
+ |									|---------  yearMax.csv  
+ |									|						|     year(yyyy)  |  ReturnYear  |   rainfallValue(mm) |
+ |									|						========= |======== |  =========== |
+ |									|						|      2006 　    |     2              |            46               |
+ |									|						|      2006 　    |     3              |            52               |.....以此類推
+ |									|	
+ |									|	
+ |									|--------- 	originalData.csv (時間欄位可以不用依照順序)
+ |															|     DateTime(yyyy/MM/dd HH)  |  rainfallValue(mm)  |
+ |															==================== | ============|
+ |															|                 2006/01/01 13  　    |             0.5             |
+ |															|                 2006/01/01 15  　    |             0.5             |.....以此類推
+ |			===========================================================================		
+ |
+ |
+ |
+ |---- Statics(folder)
+ 			|
+ 			|-----folder for each return period (folderName： hour delay, for example , 1,2,3,6,9,12,18,24,48,72)
+ 						|
+ 						|------ maxRainfall(folder)
+ 						|					|
+ 						|					|------- 2006.asc
+ 						|					|------- 2007.asc .....以此類推
+ 						|		
+ 						|		
+ 						|------ distribution(folder)
+ 											|
+ 											|
+ 											|------ EV_200.asc (fileName： method + "_" + year + ".asc").
+ 											|      (return year：2,5,10,50,100,150,200,500)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
