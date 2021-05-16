@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Optional;
 
 import AtRework.Global;
+import AtRework.Global.rainfallPerDuration;
 import AtRework.GridModel.Grid;
 import usualTool.AtCommonMath;
 import usualTool.AtCommonMath.StaticsModel;
@@ -57,8 +58,12 @@ public class YearMaxProcessing {
 					isEnd = true;
 				}
 
-				String temptValue = Optional.ofNullable(originalData.get(temptDate)).orElse("0");
-				sum.add(Double.parseDouble(temptValue));
+				double temptValue = Double.parseDouble(Optional.ofNullable(originalData.get(temptDate)).orElse("0"));
+				if (temptValue < Global.minRainfallPerHour || temptValue > Global.maxRainfallPerHour) {
+					sum.add(0.0);
+				} else {
+					sum.add(temptValue);
+				}
 			}
 
 			// get max value

@@ -18,6 +18,9 @@ import usualTool.AtFileWriter;
 
 public class Grid {
 
+	private double x;
+	private double y;
+
 	private String name;
 	private String folderPath;
 	private String yearMaxPath;
@@ -28,6 +31,8 @@ public class Grid {
 
 	// xy coordination in EPSG:4326(WGS84)
 	public Grid(double x, double y) {
+		this.x = AtCommonMath.getDecimal_Double(x, Global.dataDecimal);
+		this.y = AtCommonMath.getDecimal_Double(y, Global.dataDecimal);
 		this.name = AtCommonMath.getDecimal_String(x, Global.dataDecimal) + "_"
 				+ AtCommonMath.getDecimal_String(y, Global.dataDecimal);
 		this.folderPath = Global.rainfallFolder + this.name;
@@ -36,6 +41,8 @@ public class Grid {
 	}
 
 	public Grid(String gridName) {
+		this.x = AtCommonMath.getDecimal_Double(gridName.split("_")[0], Global.dataDecimal);
+		this.y = AtCommonMath.getDecimal_Double(gridName.split("_")[1], Global.dataDecimal);
 		this.name = gridName;
 		this.folderPath = Global.rainfallFolder + this.name;
 		this.yearMaxPath = this.folderPath + "\\yearMax.csv";
@@ -44,6 +51,14 @@ public class Grid {
 
 	public String getName() {
 		return this.name;
+	}
+	
+	public double getX() {
+		return this.x;
+	}
+	
+	public double getY() {
+		return this.y;
 	}
 
 	public boolean checkExsist() {
