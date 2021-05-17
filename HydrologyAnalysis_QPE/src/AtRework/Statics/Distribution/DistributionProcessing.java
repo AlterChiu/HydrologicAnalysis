@@ -1,6 +1,5 @@
 package AtRework.Statics.Distribution;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,29 +15,28 @@ import usualTool.AtFileWriter;
 
 public class DistributionProcessing {
 
+	// collect for all asciiFile from Statics.maxRainfall
+	private List<AsciiBasicControl> asciiList = new ArrayList<>();
+
+	// output collection
+	private Map<String, AsciiBasicControl> outMap = new HashMap<>();
+
+	private Global.rainfallPerDuration durationLimit;
+
 	public DistributionProcessing() throws Exception {
 
 		// STEP 1 run all duration
 		for (int duration : Global.rainfallDuration) {
 
-			// output collection
-			Map<String, AsciiBasicControl> outMap = new HashMap<>();
-
 			String durationFolder = Global.staticsFolder + duration;
 			String maxRainfallFloder = durationFolder + "\\maxRainfall\\";
 			String distributionFolder = durationFolder + "\\distribution\\";
-			Global.rainfallPerDuration durationLimit = Global.rainfallPerDuration.getLimit(duration);
+			this.durationLimit = Global.rainfallPerDuration.getLimit(duration);
 			System.out.println("*NOTICE* Collecting yearMaxRainfall, duration=" + duration);
 
 			// STEP 2 collect all yearMax .ascFile to List
-			// collect for all asciiFile from Statics.maxRainfall
-			List<AsciiBasicControl> asciiList = new ArrayList<>();
-
 			// STEP 3 consider all the year between startYear and endYear
-			for (int year = Global.startYear; year <= Global.endYear; year++) {
-				asciiList.add(new AsciiBasicControl(maxRainfallFloder + year + ".asc"));
-			}
-			System.out.println("*NOTICE* Collecting each year asciiFile over");
+			getAsciiList(maxRainfallFloder);
 
 			// STEP 4 calculate for all grids
 			AsciiBasicControl temptAscii = asciiList.get(0).clone();
@@ -49,16 +47,7 @@ public class DistributionProcessing {
 					if (!temptAscii.isNull(column, row)) {
 
 						// STEP 6 get all yearMax rainfall in specific grid
-						List<Double> gridValue = new ArrayList<>();
-						for (AsciiBasicControl ascii : asciiList) {
-							double temptGridValue = Double.parseDouble(ascii.getValue(column, row));
-
-							// check for value in duration rainfall limit
-							if (temptGridValue >= durationLimit.getMinValue()
-									&& temptGridValue <= durationLimit.getMaxValue())
-								gridValue.add(temptGridValue);
-						}
-						System.out.print("envent size=" + gridValue.size() + ", ");
+						List<Double> gridValue = this.getGridValue(row, column);
 
 						// STEP 7 run all distribution and returnPeriod
 						for (Global.rainfallDistribute distribution : Global.rainfallDistribute.values()) {
@@ -101,11 +90,41 @@ public class DistributionProcessing {
 
 					// clear
 				} finally {
-					asciiList.clear();
-					outMap.clear();
+					this.clear();
 				}
 			});
 		}
+	}
+
+	private void clear() {
+		this.asciiList.clear();
+		this.outMap.clear();
+	}
+
+	// STEP 3 consider all the year between startYear and endYear
+	private void getAsciiList(String maxRainfallFloder) throws IOException {
+		for (int year = Global.startYear; year <= Global.endYear; year++) {
+			asciiList.add(new AsciiBasicControl(maxRainfallFloder + year + ".asc"));
+		}
+		System.out.println("*NOTICE* Collecting each year asciiFile over");
+	}
+
+	// STEP 7 run all distribution and returnPeriod
+	private void getReturnPeriodInEachDis() {
+
+	}
+
+	private List<Double> getGridValue(int row, int column) {
+		List<Double> gridValue = new ArrayList<>();
+		for (AsciiBasicControl ascii : asciiList) {
+			double temptGridValue = Double.parseDouble(ascii.getValue(column, row));
+
+			// check for value in duration rainfall limit
+			if (temptGridValue >= durationLimit.getMinValue() && temptGridValue <= durationLimit.getMaxValue())
+				gridValue.add(temptGridValue);
+		}
+		System.out.print("envent size=" + gridValue.size() + ", ");
+		return gridValue;
 	}
 
 }
