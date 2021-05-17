@@ -19,7 +19,8 @@ public class Global {
 	public static double qpeGridSize = 0.0125;
 	public static int startYear = 2006;
 	public static int endYear = 2020;
-	public static String timeFormat = "yyyy/dd/mm HH";
+	public static String dateFormat = "yyyy/dd/mm";
+	public static String timeFormat = dateFormat + " HH";
 
 	public static int[] rainfallDuration = new int[] { 1, 2, 3, 6, 9, 12, 18, 24, 48, 72 };
 	public static int[] rainfallReturnYear = new int[] { 2, 5, 10, 50, 100, 150, 200, 500 };

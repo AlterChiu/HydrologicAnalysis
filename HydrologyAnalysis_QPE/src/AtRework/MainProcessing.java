@@ -1,5 +1,6 @@
 package AtRework;
 
+import AtRework.Rainfall.Original.Adaptor.RainfallAdaptor;
 import AtRework.Rainfall.YearMax.YearMaxProcessing;
 import AtRework.Statics.StaticsInitialize;
 import AtRework.Statics.Distribution.DistributionProcessing;
@@ -11,6 +12,8 @@ public class MainProcessing {
 		// TODO Auto-generated method stub
 
 		// STEP 1 convert original data to specific folder structure
+		String sourceFilesFolder = "";
+		new RainfallAdaptor(sourceFilesFolder);
 
 		// STEP 2 statics yearMax for each duration
 		new YearMaxProcessing();
@@ -21,8 +24,9 @@ public class MainProcessing {
 		// STEP 4 convert yearMax rainfall from grid folder to maxRainfall .ascFile for
 		// each year
 		new YearMaxConvert();
-		
-		// STEP 5 statics for each distribution in selected years(which between startYear to endYear)
+
+		// STEP 5 statics for each distribution in selected years(which between
+		// startYear to endYear)
 		new DistributionProcessing();
 	}
 

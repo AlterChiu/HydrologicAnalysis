@@ -15,6 +15,7 @@ import usualTool.AtCommonMath;
 import usualTool.AtFileFunction;
 import usualTool.AtFileReader;
 import usualTool.AtFileWriter;
+import usualTool.TimeTranslate;
 
 public class Grid {
 
@@ -52,21 +53,21 @@ public class Grid {
 	public String getName() {
 		return this.name;
 	}
-	
+
 	public double getX() {
 		return this.x;
 	}
-	
+
 	public double getY() {
 		return this.y;
 	}
 
-	public boolean checkExsist() {
+	public boolean checkExist() {
 		return new File(this.folderPath).exists();
 	}
 
 	public void createFolder() throws IOException {
-		if (!this.checkExsist()) {
+		if (!this.checkExist()) {
 
 			// create folder
 			AtFileFunction.createFolder(this.folderPath);
@@ -80,7 +81,7 @@ public class Grid {
 	// Original data
 	// <=======================================================>
 	public Map<String, String> getOriginalRainfall() throws Exception {
-		if (!this.checkExsist()) {
+		if (!this.checkExist()) {
 			throw new Exception("*ERROR* Grid Folder not exsist, " + this.name);
 		}
 
@@ -94,9 +95,23 @@ public class Grid {
 		return outMap;
 	}
 
-	public void addOriginalData(String date, String value) {
+	public void addOriginalData(Map<String, String> dateValue) {
+		dateValue.keySet().forEach(key -> {
+			try {
+				this.addOriginalData(key, dateValue.get(key));
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		});
+	}
 
-		this.temptOriginalData.put(date, value);
+	public void addOriginalData(String date, String value) throws Exception {
+		try {
+			TimeTranslate.getDateLong(date, Global.timeFormat);
+			this.temptOriginalData.put(date, value);
+		} catch (Exception e) {
+			throw new Exception("*ERROR* not allowable date formate");
+		}
 	}
 
 	public void updateOriginalRainfall() throws Exception {
@@ -119,7 +134,7 @@ public class Grid {
 	// YearMax
 	// <=======================================================>
 	public Map<Integer, Map<Integer, String>> getYearMaxRainfall() throws Exception {
-		if (!this.checkExsist()) {
+		if (!this.checkExist()) {
 			throw new Exception("*ERROR* Grid Folder not exsist, " + this.name);
 		}
 
