@@ -3,7 +3,9 @@ package AtRework.Rainfall.Original.Adaptor;
 import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
+import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 import org.jsoup.nodes.Element;
 
@@ -17,8 +19,9 @@ public class RainfallAdaptor {
 
 	public RainfallAdaptor(String sourceFileFolder) throws IOException {
 		for (String pixmlFile : new File(sourceFileFolder).list()) {
-			AtXmlReader temptPiXml = new AtXmlReader(sourceFileFolder + pixmlFile, "UTF-8");
+			System.out.println(pixmlFile);
 
+			AtXmlReader temptPiXml = new AtXmlReader(sourceFileFolder + pixmlFile, "UTF-8");
 			temptPiXml.getNodeByTag("series").forEach(seriesElement -> {
 
 				// get properties
@@ -29,46 +32,38 @@ public class RainfallAdaptor {
 
 				// get event(rainfall) value
 				seriesElement.getElementsByTag("event").forEach(eventElement -> {
-					String date = eventElement.getElementsByAttribute("date").text();
-					String time = eventElement.getElementsByAttribute("time").text();
-					double value = Double.parseDouble(eventElement.getElementsByAttribute("value").text());
+					String date = eventElement.attr("date");
+					String time = eventElement.attr("time");
+					double value = Double.parseDouble(eventElement.attr("value"));
 					try {
 						rainfall.addValueFromPiXml(date, time, value);
 					} catch (ParseException e) {
 						e.printStackTrace();
 					}
 				});
+				
+				// if there is rainfall data
+				if(rainfall.getRainfall().size()>0) {
+					// update to grid floder
+					Grid grid = new Grid(rainfall.getName());
 
-				// update to grid floder
-				Grid grid = new Grid(rainfall.getName());
+					// add original value to grid object
+					grid.addOriginalData(rainfall.getRainfall());
 
-				// check for folder is exist first
-				if (grid.checkExist()) {
+					// update
 					try {
-						grid.createFolder();
-					} catch (IOException e) {
-						e.printStackTrace();
+						grid.updateOriginalRainfall();
+					} catch (Exception e) {
 					}
 				}
-
-				// add original value to grid object
-				grid.addOriginalData(rainfall.getRainfall());
-
-				// update
-				try {
-					grid.updateOriginalRainfall();
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
 			});
-
 		}
 	}
 
 	public class RainfallModel {
 
 		private String name;
-		private Map<String, String> temptValues;
+		private Map<String, String> temptValues = new TreeMap<>();
 
 		public RainfallModel(String x, String y) {
 			this.name = AtCommonMath.getDecimal_String(x, Global.dataDecimal) + "_"

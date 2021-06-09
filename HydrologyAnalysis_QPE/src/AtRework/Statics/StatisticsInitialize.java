@@ -3,9 +3,9 @@ package AtRework.Statics;
 import AtRework.Global;
 import usualTool.AtFileFunction;
 
-public class StaticsInitialize {
+public class StatisticsInitialize {
 
-	public StaticsInitialize() {
+	public StatisticsInitialize() {
 
 		// create for folder for each return period
 		for (int duration : Global.rainfallDuration) {

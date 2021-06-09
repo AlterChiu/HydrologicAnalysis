@@ -43,7 +43,7 @@ public class DistributionProcessing {
 			for (int row = 0; row < temptAscii.getRow(); row++) {
 				for (int column = 0; column < temptAscii.getColumn(); column++) {
 					if (!temptAscii.isNull(column, row)) {
-						System.out.print("*NOTICE* grid, " + row + ", " + "column, ");
+						System.out.print("*NOTICE* grid, " + row + ", " + column + ", ");
 
 						// STEP 5 get all yearMax rainfall in specific grid
 						List<Double> gridValue = this.getGridValue(row, column);
@@ -56,6 +56,9 @@ public class DistributionProcessing {
 
 			// STEP 7 output to ascFiles
 			this.outputToAscii(distributionFolder, duration);
+			
+			// SETP 8 release memory
+			this.clear();
 		}
 	}
 
@@ -74,7 +77,7 @@ public class DistributionProcessing {
 			double temptGridValue = Double.parseDouble(ascii.getValue(column, row));
 
 			// check for value in duration rainfall limit
-			if (temptGridValue >= durationLimit.getMinValue() && temptGridValue <= durationLimit.getMaxValue())
+			if (temptGridValue > durationLimit.getMinValue() && temptGridValue <= durationLimit.getMaxValue())
 				gridValue.add(temptGridValue);
 		}
 		System.out.print("envent size=" + gridValue.size() + ", ");
@@ -89,17 +92,18 @@ public class DistributionProcessing {
 				// setting keyName for outMap
 				String keyName = distribution.getName() + "_" + returnPeriod;
 				AsciiBasicControl outAscii = Optional.ofNullable(outMap.get(keyName)).orElse(asciiList.get(0).clone());
+				System.out.print(keyName + "=");
 
 				// check for event size is enough for returnPeriod statics
 				if (gridValue.size() < Global.rainfallEventMinSize) {
 					outAscii.setValue(column, row, outAscii.getNullValue());
-					System.out.print(keyName + "=null, ");
+					System.out.print("null, ");
 				} else {
 					RetrunPeriod returnPeriodDis = distribution.getDistribute(gridValue);
 					String returnPeriodValue = AtCommonMath
 							.getDecimal_String(returnPeriodDis.getPeriodRainfall(returnPeriod), Global.dataDecimal);
 					outAscii.setValue(column, row, returnPeriodValue);
-					System.out.print(keyName + "=" + returnPeriodValue + ", ");
+					System.out.print(returnPeriodValue + ", ");
 				}
 				outMap.put(keyName, outAscii);
 
@@ -118,14 +122,11 @@ public class DistributionProcessing {
 
 			} catch (IOException e) {
 				e.printStackTrace();
-
-				// clear
-			} finally {
-				this.clear();
 			}
 		});
 	}
-
+	
+	// STEP 8 release memory
 	private void clear() {
 		this.asciiList.clear();
 		this.outMap.clear();

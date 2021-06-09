@@ -14,43 +14,62 @@ import usualTool.AtCommonMath.StaticsModel;
 import usualTool.TimeTranslate;
 
 public class YearMaxProcessing {
+	
+	// go throw after the target gridName
+	// using when processing break
+	//====================================
+	private boolean skip = true;
+	private String targetGridName = "121.4562_24.0437";
+	//====================================
 
 	public YearMaxProcessing() throws Exception {
 		// STEP 1 read each folder in rainfallData
 
 		String rainfallRootFolder = Global.rainfallFolder;
 		for (String gridName : new File(rainfallRootFolder).list()) {
-			Grid grid = new Grid(gridName);
+			
+			// skip parsed folder
+			if (gridName.equals(targetGridName))
+				skip = false;
+			
+			// check for is parsed
+			if (!skip) {
+				Grid grid = new Grid(gridName);
 
-			// STEP 2 get originalData from grid folder
-			Map<String, String> originalData = grid.getOriginalRainfall();
+				// STEP 2 statics for each year and rainfall duration
+				for (int year = Global.startYear; year <= Global.endYear; year++) {
 
-			// STEP 3 statics for each year and rainfall duration
-			for (int year = Global.startYear; year <= Global.endYear; year++) {
-				System.out.println(gridName + "\t" + year);
+					// STEP 3 get originalData from grid folder
+					Map<String, String> originalData = grid.getOriginalRainfall(year + "");
+					System.out.print(gridName + "\t" + year + "\t");
 
-				for (int duration : Global.rainfallDuration) {
-					System.out.println(duration);
+					for (int duration : Global.rainfallDuration) {
+						System.out.print(duration + "\t");
 
-					String yearMax = this.getYearMax(originalData, year, duration);
-					grid.addYearMax(year, duration, yearMax);
+						String yearMax = this.getYearMax(originalData, year, duration);
+						grid.addYearMax(year, duration, yearMax);
+					}
+
+					System.out.println();
 				}
+
+				// STEP 4 make new yearMax value update to each grid folder
+				grid.updateYearMax();
 			}
 
-			// STEP 4 make new yearMax value update to each grid folder
-			grid.updateYearMax();
 		}
 
 	}
 
 	public String getYearMax(Map<String, String> originalData, int year, int duration) throws Exception {
-		String startTime = year + "\01\01 00";
-		String endTime = year + "\12\31 23";
+		String startTime = year + "/01/01 00";
+		String endTime = year + "/12/31 23";
 		boolean isEnd = false;
 
 		double temptMax = Double.MIN_VALUE;
 		while (!isEnd) {
 
+			// get duration summary
 			List<Double> sum = new ArrayList<>();
 			for (int index = 0; index < duration; index++) {
 				String temptDate = TimeTranslate.addHour(startTime, Global.timeFormat, index);
@@ -58,6 +77,7 @@ public class YearMaxProcessing {
 					isEnd = true;
 				}
 
+				// check value is failed or not
 				double temptValue = Double.parseDouble(Optional.ofNullable(originalData.get(temptDate)).orElse("0"));
 				if (temptValue < Global.minRainfallPerHour || temptValue > Global.maxRainfallPerHour) {
 					sum.add(0.0);
@@ -70,10 +90,11 @@ public class YearMaxProcessing {
 			double temptSum = AtCommonMath.getListStatistic(sum, StaticsModel.getSum);
 			if (temptSum > temptMax)
 				temptMax = temptSum;
+
+			startTime = TimeTranslate.addHour(startTime, Global.timeFormat);
 		}
 
 		return AtCommonMath.getDecimal_String(temptMax, Global.dataDecimal);
-
 	}
 
 }

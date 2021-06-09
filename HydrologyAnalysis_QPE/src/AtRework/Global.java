@@ -12,18 +12,20 @@ import Hydro.Rainfall.ReturnPeriod.ReturnPeriod_PT3;
 public class Global {
 
 	public static String rootFolder = "W:\\OneDrive\\工作用\\計劃案\\110 - 北科\\格網水文\\110-架構\\";
-	public static String rainfallFolder = rootFolder + "Rainfall\\";
+	public static String rainfallFolder = rootFolder + "RainfallData\\";
 	public static String staticsFolder = rootFolder + "Statics\\";
 
 	public static int dataDecimal = 4;
 	public static double qpeGridSize = 0.0125;
 	public static int startYear = 2006;
 	public static int endYear = 2020;
-	public static String dateFormat = "yyyy/dd/mm";
+	public static String dateFormat = "yyyy/MM/dd";
 	public static String timeFormat = dateFormat + " HH";
 
-	public static int[] rainfallDuration = new int[] { 1, 2, 3, 6, 9, 12, 18, 24, 48, 72 };
-	public static int[] rainfallReturnYear = new int[] { 2, 5, 10, 50, 100, 150, 200, 500 };
+//	public static int[] rainfallDuration = new int[] { 1, 2, 3, 6, 9, 12, 18, 24, 48, 72 };
+	public static int[] rainfallDuration = new int[] { 1, 3, 6, 12 };
+//	public static int[] rainfallReturnYear = new int[] { 2, 5, 10, 50, 100, 150, 200, 500 };
+	public static int[] rainfallReturnYear = new int[] { 2, 5, 10};
 
 	public static enum rainfallDistribute {
 		EV1("EV"), LN3("LN"), LPT3("LPT3"), PT3("PT3");
