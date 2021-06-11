@@ -56,9 +56,7 @@ public class YearMaxProcessing {
 				// STEP 4 make new yearMax value update to each grid folder
 				grid.updateYearMax();
 			}
-
 		}
-
 	}
 
 	public String getYearMax(Map<String, String> originalData, int year, int duration) throws Exception {
