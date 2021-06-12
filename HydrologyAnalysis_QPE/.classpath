@@ -12,18 +12,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/code/java/library/CommonTool.jar"/>
-	<classpathentry kind="lib" path="D:/code/java/gdal/release-1911-x64-gdal-2-4-4-mapserver-7-4-3/bin/gdal.jar">
-		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/code/java/gdal/release-1911-x64-gdal-2-4-4-mapserver-7-4-3/bin"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/code/java/library/foundUs/Delft_PI.jar"/>
-	<classpathentry kind="lib" path="D:/code/java/library/foundUs/Delft_Util.jar"/>
+	<classpathentry kind="lib" path="K:/Code/JAVA-Library/CommonTool.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
